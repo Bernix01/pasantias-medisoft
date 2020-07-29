@@ -13,3 +13,8 @@ struct AppointmentPreview {
     let specialty: String!
     let date: Date!
 }
+
+struct AppointmentsPreviewByDate {
+    let date: Date!
+    let previews: [AppointmentPreview]!
+}
