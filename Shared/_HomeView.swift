@@ -10,7 +10,7 @@ import SwiftUI
 struct _HomeView: View {
     var body: some View {
         VStack(alignment: .center, spacing: 8.0) {
-            HeaderView()
+            HeaderView(onMenuBtnClick: {}, onProfileBtnClick: {})
             Text(NSLocalizedString("Bienvenido(a)", comment: "welcome text"))
                 .multilineTextAlignment(.center)
                 .padding(.top, 32.0)

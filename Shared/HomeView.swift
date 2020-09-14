@@ -10,77 +10,68 @@ import OSLog
 
 struct HomeView: View {
     @State var appointments: [AppointmentPreview] = sampleAppointments
+    @State private var menuOpen: Bool = false
     var body: some View {
-        VStack(alignment: .center) {
-            HeaderView()
-            HeaderButtons()
-                .padding(.top, 32.0)
-            VStack {
-                HStack(alignment: .center) {
-                    Text("Citas próximas")
-                        .font(FontNameManager.title)
-                        .multilineTextAlignment(.leading)
-                    Spacer()
-                    Button{
 
-                    } label: {
-                        Image(systemName: "calendar")
-                            .foregroundColor(.white)
-                    }
-                    .padding(.all, 10)
-                    .background(Capsule().fill(Color.accentColor))
-                }
-                HStack(alignment: .center) {
-                    Circle()
-                        .fill(Color("TeleconsultaColor"))
-                        .frame(width: 20, height: 20)
-                    Text("Teleconsulta")
-                        .font(FontNameManager.body2)
-                        .foregroundColor(Color("BlackColor"))
-                    Circle()
-                        .fill(Color("PresencialColor"))
-                        .frame(width: 20, height: 20)
-                    Text("Presencial")
-                        .font(FontNameManager.body2)
-                        .foregroundColor(Color("BlackColor"))
-                    Spacer()
-                }
-            }
-            LazyVStack {
-                ForEach(convertDates(arr: appointments), id: \.date) { day in
-                    VStack(alignment: .leading, spacing: 8.0) {
-                        Text("Hoy")
-                        ForEach (day.previews, id: \.id) { preview in
-                            HStack(alignment: .center) {
-                                Text("09h30")
-                                Rectangle().fill(Color("TeleconsultaColor"))
-                                    .frame(maxWidth: 8, minHeight: 0, maxHeight: .infinity, alignment: .center)
-                                VStack(alignment: .leading) {
-                                    Text("\(preview.doctor)")
-                                    Text("\(preview.specialty)")
-                                }
-                                Spacer()
+        GeometryReader { geometry in
+            ZStack{
+                VStack(alignment: .center) {
+                    HeaderView(onMenuBtnClick: openMenu, onProfileBtnClick: {})
+                    //            HeaderButtons()
+                    //                .padding(.top, 32.0)
+                    VStack {
+                        HStack(alignment: .center) {
+                            Text("Citas próximas")
+                                .font(FontNameManager.title)
+                                .multilineTextAlignment(.leading)
+                            Spacer()
+                            Button{
+
+                            } label: {
+                                Image(systemName: "calendar")
+                                    .foregroundColor(.white)
                             }
-                            .padding(.vertical)
-
+                            .padding(.all, 10)
+                            .background(Capsule().fill(Color.accentColor))
+                        }
+                        HStack(alignment: .center) {
+                            Circle()
+                                .fill(Color("TeleconsultaColor"))
+                                .frame(width: 20, height: 20)
+                            Text("Teleconsulta")
+                                .font(FontNameManager.body2)
+                                .foregroundColor(Color("BlackColor"))
+                            Circle()
+                                .fill(Color("PresencialColor"))
+                                .frame(width: 20, height: 20)
+                            Text("Presencial")
+                                .font(FontNameManager.body2)
+                                .foregroundColor(Color("BlackColor"))
+                            Spacer()
                         }
                     }
-                    .padding()
-                    .background(
-                        RoundedRectangle(cornerRadius: 16)
-                            .fill(Color(.white))
-                            .shadow(color: Color("ShadowColor"), radius: 3, x: 0, y: 1)
-                    )
+                    .padding(.top, 32.0)
+                    LazyVStack {
+                        ForEach(convertDates(arr: appointments), id: \.date) { day in
+                            DayView(day: day)
+                        }
+                    }
+                    .padding(.top)
+                    .navigationBarBackButtonHidden(true)
+                    .navigationBarHidden(true)
                 }
+                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)
+                .padding(.horizontal)
+                SideMenu(width:geometry.frame(in: CoordinateSpace.global).width * 0.8,
+                         isOpen: $menuOpen,
+                    menuClose: self.openMenu)
             }
-            .padding(.top)
-            .navigationBarBackButtonHidden(true)
-            .navigationBarHidden(true)
         }
-        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)
-        .padding(.horizontal)
-        .background(ColorSpot().fill(Color("PrimaryColor")).edgesIgnoringSafeArea(.all))
+    }
 
+
+    func openMenu() {
+        self.menuOpen.toggle()
     }
 
     func convertDates(arr: [AppointmentPreview]) -> [AppointmentsPreviewByDate] {
@@ -95,8 +86,8 @@ struct HomeView: View {
         print("foo")
         print(groupDic)
         let data = groupDic.keys.map { dateComponents -> AppointmentsPreviewByDate in
-                print("BAR")
-             return AppointmentsPreviewByDate(date: dateComponents.date, previews: groupDic[dateComponents])
+            print("BAR")
+            return AppointmentsPreviewByDate(date: dateComponents.date, previews: groupDic[dateComponents])
         }
         return data
     }
@@ -119,10 +110,10 @@ let sampleAppointments: [AppointmentPreview] = [
                        doctor: "Dr. Albuja",
                        specialty: "Medicina General",
                        date:  Date(timeIntervalSince1970: 1594650600000)),
-//    AppointmentPreview(id: "3",
-//                       doctor: "Dr. Albuja",
-//                       specialty: "Oftalmología",
-//                       date: Date(timeIntervalSince1970: 1594564200000))
+    //    AppointmentPreview(id: "3",
+    //                       doctor: "Dr. Albuja",
+    //                       specialty: "Oftalmología",
+    //                       date: Date(timeIntervalSince1970: 1594564200000))
 ]
 
 struct HeaderButtons: View {
@@ -154,5 +145,35 @@ struct HeaderButtons: View {
             .padding(.horizontal, 16.0)
             .background(Capsule().fill(Color.accentColor))
         }
+    }
+}
+
+struct DayView: View {
+    let day: AppointmentsPreviewByDate
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8.0) {
+            Text("Hoy")
+            ForEach (day.previews, id: \.id) { preview in
+                HStack(alignment: .center) {
+                    Text("09h30")
+                    Rectangle().fill(Color("TeleconsultaColor"))
+                        .frame(maxWidth: 8, minHeight: 0, maxHeight: .infinity, alignment: .center)
+                    VStack(alignment: .leading) {
+                        Text("\(preview.doctor)")
+                        Text("\(preview.specialty)")
+                    }
+                    Spacer()
+                }
+                .padding(.vertical)
+
+            }
+        }
+        .padding()
+        .background(
+            RoundedRectangle(cornerRadius: 16)
+                .fill(Color(.white))
+                .shadow(color: Color("ShadowColor"), radius: 3, x: 0, y: 1)
+        )
     }
 }

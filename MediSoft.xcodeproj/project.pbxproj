@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3056193250FB1A4002EBD9B /* MenuDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3056192250FB1A4002EBD9B /* MenuDrawer.swift */; };
+		B3056194250FB1A4002EBD9B /* MenuDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3056192250FB1A4002EBD9B /* MenuDrawer.swift */; };
 		B31DF60724BCAAAE0014DC03 /* _HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31DF60624BCAAAE0014DC03 /* _HomeView.swift */; };
 		B31DF60824BCAAAE0014DC03 /* _HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31DF60624BCAAAE0014DC03 /* _HomeView.swift */; };
 		B332A08024CE69410020ACD3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332A07F24CE69410020ACD3 /* HomeView.swift */; };
@@ -158,6 +160,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B3056192250FB1A4002EBD9B /* MenuDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDrawer.swift; sourceTree = "<group>"; };
 		B31DF60624BCAAAE0014DC03 /* _HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HomeView.swift; sourceTree = "<group>"; };
 		B332A07F24CE69410020ACD3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B332A08324CE723D0020ACD3 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -243,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				B332A08324CE723D0020ACD3 /* HeaderView.swift */,
+				B3056192250FB1A4002EBD9B /* MenuDrawer.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -654,6 +658,7 @@
 				B31DF60724BCAAAE0014DC03 /* _HomeView.swift in Sources */,
 				B3AC785824B90DA0003601DA /* LoginView.swift in Sources */,
 				B332A08024CE69410020ACD3 /* HomeView.swift in Sources */,
+				B3056193250FB1A4002EBD9B /* MenuDrawer.swift in Sources */,
 				B37FA00724CF377400552506 /* Appointment.swift in Sources */,
 				B3AC785624B90DA0003601DA /* MediSoftApp.swift in Sources */,
 			);
@@ -665,6 +670,7 @@
 			files = (
 				B3B5060224BAB4370079B5B7 /* TextStyles.swift in Sources */,
 				B332A08524CE723D0020ACD3 /* HeaderView.swift in Sources */,
+				B3056194250FB1A4002EBD9B /* MenuDrawer.swift in Sources */,
 				B31DF60824BCAAAE0014DC03 /* _HomeView.swift in Sources */,
 				B3AC785924B90DA0003601DA /* LoginView.swift in Sources */,
 				B332A08124CE69410020ACD3 /* HomeView.swift in Sources */,

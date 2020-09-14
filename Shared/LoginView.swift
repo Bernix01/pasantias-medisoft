@@ -14,7 +14,7 @@ struct LoginView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 8.0) {
-
+                Image("Logo")
                 Spacer()
                 Text("Iniciar sesión")
                     .font(FontNameManager.largeTitle)
@@ -71,16 +71,6 @@ struct LoginView: View {
                 Spacer()
             }
             .padding(.horizontal)
-            .background(ColorSpot().fill(Color("PrimaryColor")).edgesIgnoringSafeArea(.all))
-            .navigationBarTitleDisplayMode(.large)
-            .navigationTitle("")
-            .navigationBarItems(leading:
-                    Image("Logo")
-                    .resizable()
-                    .frame(width: 100, height: 100)
-                    .aspectRatio(contentMode: .fit)
-                                    .offset(x: 0.0, y: 30.0)
-            )
         }
     }
 }
