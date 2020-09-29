@@ -7,232 +7,160 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3056193250FB1A4002EBD9B /* MenuDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3056192250FB1A4002EBD9B /* MenuDrawer.swift */; };
-		B3056194250FB1A4002EBD9B /* MenuDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3056192250FB1A4002EBD9B /* MenuDrawer.swift */; };
-		B31DF60724BCAAAE0014DC03 /* _HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31DF60624BCAAAE0014DC03 /* _HomeView.swift */; };
-		B31DF60824BCAAAE0014DC03 /* _HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31DF60624BCAAAE0014DC03 /* _HomeView.swift */; };
-		B332A08024CE69410020ACD3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332A07F24CE69410020ACD3 /* HomeView.swift */; };
-		B332A08124CE69410020ACD3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332A07F24CE69410020ACD3 /* HomeView.swift */; };
-		B332A08424CE723D0020ACD3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332A08324CE723D0020ACD3 /* HeaderView.swift */; };
-		B332A08524CE723D0020ACD3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332A08324CE723D0020ACD3 /* HeaderView.swift */; };
-		B37FA00724CF377400552506 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37FA00624CF377400552506 /* Appointment.swift */; };
-		B3AC784924B90DA0003601DA /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AC784824B90DA0003601DA /* Tests_iOS.swift */; };
-		B3AC785424B90DA0003601DA /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AC785324B90DA0003601DA /* Tests_macOS.swift */; };
-		B3AC785624B90DA0003601DA /* MediSoftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AC782D24B90D9F003601DA /* MediSoftApp.swift */; };
-		B3AC785724B90DA0003601DA /* MediSoftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AC782D24B90D9F003601DA /* MediSoftApp.swift */; };
-		B3AC785824B90DA0003601DA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AC782E24B90D9F003601DA /* LoginView.swift */; };
-		B3AC785924B90DA0003601DA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AC782E24B90D9F003601DA /* LoginView.swift */; };
-		B3AC785A24B90DA0003601DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AC782F24B90DA0003601DA /* Assets.xcassets */; };
-		B3AC785B24B90DA0003601DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AC782F24B90DA0003601DA /* Assets.xcassets */; };
-		B3B5058824BAAB910079B5B7 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056924BAAB910079B5B7 /* Montserrat-LightItalic.ttf */; };
-		B3B5058924BAAB910079B5B7 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056924BAAB910079B5B7 /* Montserrat-LightItalic.ttf */; };
-		B3B5058A24BAAB910079B5B7 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056924BAAB910079B5B7 /* Montserrat-LightItalic.ttf */; };
-		B3B5058B24BAAB910079B5B7 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056924BAAB910079B5B7 /* Montserrat-LightItalic.ttf */; };
-		B3B5058C24BAAB910079B5B7 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056A24BAAB910079B5B7 /* Montserrat-Medium.ttf */; };
-		B3B5058D24BAAB910079B5B7 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056A24BAAB910079B5B7 /* Montserrat-Medium.ttf */; };
-		B3B5058E24BAAB910079B5B7 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056A24BAAB910079B5B7 /* Montserrat-Medium.ttf */; };
-		B3B5058F24BAAB910079B5B7 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056A24BAAB910079B5B7 /* Montserrat-Medium.ttf */; };
-		B3B5059024BAAB910079B5B7 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056B24BAAB910079B5B7 /* Montserrat-BoldItalic.ttf */; };
-		B3B5059124BAAB910079B5B7 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056B24BAAB910079B5B7 /* Montserrat-BoldItalic.ttf */; };
-		B3B5059224BAAB910079B5B7 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056B24BAAB910079B5B7 /* Montserrat-BoldItalic.ttf */; };
-		B3B5059324BAAB910079B5B7 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056B24BAAB910079B5B7 /* Montserrat-BoldItalic.ttf */; };
-		B3B5059424BAAB910079B5B7 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056C24BAAB910079B5B7 /* Montserrat-Light.ttf */; };
-		B3B5059524BAAB910079B5B7 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056C24BAAB910079B5B7 /* Montserrat-Light.ttf */; };
-		B3B5059624BAAB910079B5B7 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056C24BAAB910079B5B7 /* Montserrat-Light.ttf */; };
-		B3B5059724BAAB910079B5B7 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056C24BAAB910079B5B7 /* Montserrat-Light.ttf */; };
-		B3B5059824BAAB910079B5B7 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056D24BAAB910079B5B7 /* Montserrat-ThinItalic.ttf */; };
-		B3B5059924BAAB910079B5B7 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056D24BAAB910079B5B7 /* Montserrat-ThinItalic.ttf */; };
-		B3B5059A24BAAB910079B5B7 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056D24BAAB910079B5B7 /* Montserrat-ThinItalic.ttf */; };
-		B3B5059B24BAAB910079B5B7 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056D24BAAB910079B5B7 /* Montserrat-ThinItalic.ttf */; };
-		B3B5059C24BAAB910079B5B7 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056E24BAAB910079B5B7 /* Montserrat-ExtraLight.ttf */; };
-		B3B5059D24BAAB910079B5B7 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056E24BAAB910079B5B7 /* Montserrat-ExtraLight.ttf */; };
-		B3B5059E24BAAB910079B5B7 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056E24BAAB910079B5B7 /* Montserrat-ExtraLight.ttf */; };
-		B3B5059F24BAAB910079B5B7 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056E24BAAB910079B5B7 /* Montserrat-ExtraLight.ttf */; };
-		B3B505A024BAAB910079B5B7 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056F24BAAB910079B5B7 /* Montserrat-Thin.ttf */; };
-		B3B505A124BAAB910079B5B7 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056F24BAAB910079B5B7 /* Montserrat-Thin.ttf */; };
-		B3B505A224BAAB910079B5B7 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056F24BAAB910079B5B7 /* Montserrat-Thin.ttf */; };
-		B3B505A324BAAB910079B5B7 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5056F24BAAB910079B5B7 /* Montserrat-Thin.ttf */; };
-		B3B505A424BAAB910079B5B7 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057024BAAB910079B5B7 /* Montserrat-Bold.ttf */; };
-		B3B505A524BAAB910079B5B7 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057024BAAB910079B5B7 /* Montserrat-Bold.ttf */; };
-		B3B505A624BAAB910079B5B7 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057024BAAB910079B5B7 /* Montserrat-Bold.ttf */; };
-		B3B505A724BAAB910079B5B7 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057024BAAB910079B5B7 /* Montserrat-Bold.ttf */; };
-		B3B505A824BAAB910079B5B7 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057124BAAB910079B5B7 /* Montserrat-MediumItalic.ttf */; };
-		B3B505A924BAAB910079B5B7 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057124BAAB910079B5B7 /* Montserrat-MediumItalic.ttf */; };
-		B3B505AA24BAAB910079B5B7 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057124BAAB910079B5B7 /* Montserrat-MediumItalic.ttf */; };
-		B3B505AB24BAAB910079B5B7 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057124BAAB910079B5B7 /* Montserrat-MediumItalic.ttf */; };
-		B3B505AC24BAAB910079B5B7 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057224BAAB910079B5B7 /* Montserrat-BlackItalic.ttf */; };
-		B3B505AD24BAAB910079B5B7 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057224BAAB910079B5B7 /* Montserrat-BlackItalic.ttf */; };
-		B3B505AE24BAAB910079B5B7 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057224BAAB910079B5B7 /* Montserrat-BlackItalic.ttf */; };
-		B3B505AF24BAAB910079B5B7 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057224BAAB910079B5B7 /* Montserrat-BlackItalic.ttf */; };
-		B3B505B024BAAB910079B5B7 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057324BAAB910079B5B7 /* Montserrat-SemiBold.ttf */; };
-		B3B505B124BAAB910079B5B7 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057324BAAB910079B5B7 /* Montserrat-SemiBold.ttf */; };
-		B3B505B224BAAB910079B5B7 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057324BAAB910079B5B7 /* Montserrat-SemiBold.ttf */; };
-		B3B505B324BAAB910079B5B7 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057324BAAB910079B5B7 /* Montserrat-SemiBold.ttf */; };
-		B3B505B424BAAB910079B5B7 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057424BAAB910079B5B7 /* Montserrat-ExtraLightItalic.ttf */; };
-		B3B505B524BAAB910079B5B7 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057424BAAB910079B5B7 /* Montserrat-ExtraLightItalic.ttf */; };
-		B3B505B624BAAB910079B5B7 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057424BAAB910079B5B7 /* Montserrat-ExtraLightItalic.ttf */; };
-		B3B505B724BAAB910079B5B7 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057424BAAB910079B5B7 /* Montserrat-ExtraLightItalic.ttf */; };
-		B3B505B824BAAB910079B5B7 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057524BAAB910079B5B7 /* Montserrat-ExtraBold.ttf */; };
-		B3B505B924BAAB910079B5B7 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057524BAAB910079B5B7 /* Montserrat-ExtraBold.ttf */; };
-		B3B505BA24BAAB910079B5B7 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057524BAAB910079B5B7 /* Montserrat-ExtraBold.ttf */; };
-		B3B505BB24BAAB910079B5B7 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057524BAAB910079B5B7 /* Montserrat-ExtraBold.ttf */; };
-		B3B505C024BAAB910079B5B7 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057724BAAB910079B5B7 /* Montserrat-Black.ttf */; };
-		B3B505C124BAAB910079B5B7 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057724BAAB910079B5B7 /* Montserrat-Black.ttf */; };
-		B3B505C224BAAB910079B5B7 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057724BAAB910079B5B7 /* Montserrat-Black.ttf */; };
-		B3B505C324BAAB910079B5B7 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057724BAAB910079B5B7 /* Montserrat-Black.ttf */; };
-		B3B505C424BAAB910079B5B7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057824BAAB910079B5B7 /* Montserrat-Regular.ttf */; };
-		B3B505C524BAAB910079B5B7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057824BAAB910079B5B7 /* Montserrat-Regular.ttf */; };
-		B3B505C624BAAB910079B5B7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057824BAAB910079B5B7 /* Montserrat-Regular.ttf */; };
-		B3B505C724BAAB910079B5B7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057824BAAB910079B5B7 /* Montserrat-Regular.ttf */; };
-		B3B505C824BAAB910079B5B7 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057924BAAB910079B5B7 /* Montserrat-Italic.ttf */; };
-		B3B505C924BAAB910079B5B7 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057924BAAB910079B5B7 /* Montserrat-Italic.ttf */; };
-		B3B505CA24BAAB910079B5B7 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057924BAAB910079B5B7 /* Montserrat-Italic.ttf */; };
-		B3B505CB24BAAB910079B5B7 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057924BAAB910079B5B7 /* Montserrat-Italic.ttf */; };
-		B3B505CC24BAAB910079B5B7 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057A24BAAB910079B5B7 /* Montserrat-SemiBoldItalic.ttf */; };
-		B3B505CD24BAAB910079B5B7 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057A24BAAB910079B5B7 /* Montserrat-SemiBoldItalic.ttf */; };
-		B3B505CE24BAAB910079B5B7 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057A24BAAB910079B5B7 /* Montserrat-SemiBoldItalic.ttf */; };
-		B3B505CF24BAAB910079B5B7 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057A24BAAB910079B5B7 /* Montserrat-SemiBoldItalic.ttf */; };
-		B3B505D024BAAB910079B5B7 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057B24BAAB910079B5B7 /* Montserrat-ExtraBoldItalic.ttf */; };
-		B3B505D124BAAB910079B5B7 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057B24BAAB910079B5B7 /* Montserrat-ExtraBoldItalic.ttf */; };
-		B3B505D224BAAB910079B5B7 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057B24BAAB910079B5B7 /* Montserrat-ExtraBoldItalic.ttf */; };
-		B3B505D324BAAB910079B5B7 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057B24BAAB910079B5B7 /* Montserrat-ExtraBoldItalic.ttf */; };
-		B3B505D424BAAB910079B5B7 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057D24BAAB910079B5B7 /* Lato-Italic.ttf */; };
-		B3B505D524BAAB910079B5B7 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057D24BAAB910079B5B7 /* Lato-Italic.ttf */; };
-		B3B505D624BAAB910079B5B7 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057D24BAAB910079B5B7 /* Lato-Italic.ttf */; };
-		B3B505D724BAAB910079B5B7 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057D24BAAB910079B5B7 /* Lato-Italic.ttf */; };
-		B3B505D824BAAB910079B5B7 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057E24BAAB910079B5B7 /* Lato-LightItalic.ttf */; };
-		B3B505D924BAAB910079B5B7 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057E24BAAB910079B5B7 /* Lato-LightItalic.ttf */; };
-		B3B505DA24BAAB910079B5B7 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057E24BAAB910079B5B7 /* Lato-LightItalic.ttf */; };
-		B3B505DB24BAAB910079B5B7 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057E24BAAB910079B5B7 /* Lato-LightItalic.ttf */; };
-		B3B505DC24BAAB910079B5B7 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057F24BAAB910079B5B7 /* Lato-Thin.ttf */; };
-		B3B505DD24BAAB910079B5B7 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057F24BAAB910079B5B7 /* Lato-Thin.ttf */; };
-		B3B505DE24BAAB910079B5B7 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057F24BAAB910079B5B7 /* Lato-Thin.ttf */; };
-		B3B505DF24BAAB910079B5B7 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5057F24BAAB910079B5B7 /* Lato-Thin.ttf */; };
-		B3B505E024BAAB910079B5B7 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058024BAAB910079B5B7 /* Lato-Bold.ttf */; };
-		B3B505E124BAAB910079B5B7 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058024BAAB910079B5B7 /* Lato-Bold.ttf */; };
-		B3B505E224BAAB910079B5B7 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058024BAAB910079B5B7 /* Lato-Bold.ttf */; };
-		B3B505E324BAAB910079B5B7 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058024BAAB910079B5B7 /* Lato-Bold.ttf */; };
-		B3B505E424BAAB910079B5B7 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058124BAAB910079B5B7 /* Lato-Black.ttf */; };
-		B3B505E524BAAB910079B5B7 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058124BAAB910079B5B7 /* Lato-Black.ttf */; };
-		B3B505E624BAAB910079B5B7 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058124BAAB910079B5B7 /* Lato-Black.ttf */; };
-		B3B505E724BAAB910079B5B7 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058124BAAB910079B5B7 /* Lato-Black.ttf */; };
-		B3B505E824BAAB910079B5B7 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058224BAAB910079B5B7 /* Lato-Regular.ttf */; };
-		B3B505E924BAAB910079B5B7 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058224BAAB910079B5B7 /* Lato-Regular.ttf */; };
-		B3B505EA24BAAB910079B5B7 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058224BAAB910079B5B7 /* Lato-Regular.ttf */; };
-		B3B505EB24BAAB910079B5B7 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058224BAAB910079B5B7 /* Lato-Regular.ttf */; };
-		B3B505EC24BAAB910079B5B7 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058324BAAB910079B5B7 /* Lato-BlackItalic.ttf */; };
-		B3B505ED24BAAB910079B5B7 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058324BAAB910079B5B7 /* Lato-BlackItalic.ttf */; };
-		B3B505EE24BAAB910079B5B7 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058324BAAB910079B5B7 /* Lato-BlackItalic.ttf */; };
-		B3B505EF24BAAB910079B5B7 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058324BAAB910079B5B7 /* Lato-BlackItalic.ttf */; };
-		B3B505F424BAAB910079B5B7 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058524BAAB910079B5B7 /* Lato-BoldItalic.ttf */; };
-		B3B505F524BAAB910079B5B7 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058524BAAB910079B5B7 /* Lato-BoldItalic.ttf */; };
-		B3B505F624BAAB910079B5B7 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058524BAAB910079B5B7 /* Lato-BoldItalic.ttf */; };
-		B3B505F724BAAB910079B5B7 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058524BAAB910079B5B7 /* Lato-BoldItalic.ttf */; };
-		B3B505F824BAAB910079B5B7 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058624BAAB910079B5B7 /* Lato-Light.ttf */; };
-		B3B505F924BAAB910079B5B7 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058624BAAB910079B5B7 /* Lato-Light.ttf */; };
-		B3B505FA24BAAB910079B5B7 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058624BAAB910079B5B7 /* Lato-Light.ttf */; };
-		B3B505FB24BAAB910079B5B7 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058624BAAB910079B5B7 /* Lato-Light.ttf */; };
-		B3B505FC24BAAB910079B5B7 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058724BAAB910079B5B7 /* Lato-ThinItalic.ttf */; };
-		B3B505FD24BAAB910079B5B7 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058724BAAB910079B5B7 /* Lato-ThinItalic.ttf */; };
-		B3B505FE24BAAB910079B5B7 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058724BAAB910079B5B7 /* Lato-ThinItalic.ttf */; };
-		B3B505FF24BAAB910079B5B7 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B5058724BAAB910079B5B7 /* Lato-ThinItalic.ttf */; };
-		B3B5060124BAB4370079B5B7 /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B5060024BAB4370079B5B7 /* TextStyles.swift */; };
-		B3B5060224BAB4370079B5B7 /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B5060024BAB4370079B5B7 /* TextStyles.swift */; };
-		B3B5060324BAB4370079B5B7 /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B5060024BAB4370079B5B7 /* TextStyles.swift */; };
-		B3B5060424BAB4370079B5B7 /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B5060024BAB4370079B5B7 /* TextStyles.swift */; };
+		B311F76125230A0800C19EEC /* AllCertificatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311F76025230A0800C19EEC /* AllCertificatesView.swift */; };
+		B311F76925230E2900C19EEC /* Certificate+BL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311F76825230E2900C19EEC /* Certificate+BL.swift */; };
+		B311F76E25230F1400C19EEC /* CertificateComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311F76D25230F1400C19EEC /* CertificateComponent.swift */; };
+		B38C8405252301FF005CB041 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE942522EB9D006DB1E5 /* Montserrat-Light.ttf */; };
+		B38C8406252301FF005CB041 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BEA22522EB9D006DB1E5 /* Montserrat-ExtraBoldItalic.ttf */; };
+		B38C8407252301FF005CB041 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE922522EB9D006DB1E5 /* Montserrat-Medium.ttf */; };
+		B38C8408252301FF005CB041 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE962522EB9D006DB1E5 /* Montserrat-ExtraLight.ttf */; };
+		B38C8409252301FF005CB041 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE992522EB9D006DB1E5 /* Montserrat-MediumItalic.ttf */; };
+		B38C840A252301FF005CB041 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE9E2522EB9D006DB1E5 /* Montserrat-Black.ttf */; };
+		B38C840B252301FF005CB041 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE952522EB9D006DB1E5 /* Montserrat-ThinItalic.ttf */; };
+		B38C840C252301FF005CB041 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BEA12522EB9D006DB1E5 /* Montserrat-SemiBoldItalic.ttf */; };
+		B38C840D252301FF005CB041 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE932522EB9D006DB1E5 /* Montserrat-BoldItalic.ttf */; };
+		B38C840E252301FF005CB041 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE9D2522EB9D006DB1E5 /* Montserrat-ExtraBold.ttf */; };
+		B38C840F252301FF005CB041 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BEA02522EB9D006DB1E5 /* Montserrat-Italic.ttf */; };
+		B38C8410252301FF005CB041 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE972522EB9D006DB1E5 /* Montserrat-Thin.ttf */; };
+		B38C8411252301FF005CB041 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE9B2522EB9D006DB1E5 /* Montserrat-SemiBold.ttf */; };
+		B38C8412252301FF005CB041 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE912522EB9D006DB1E5 /* Montserrat-LightItalic.ttf */; };
+		B38C8413252301FF005CB041 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE9C2522EB9D006DB1E5 /* Montserrat-ExtraLightItalic.ttf */; };
+		B38C8414252301FF005CB041 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE982522EB9D006DB1E5 /* Montserrat-Bold.ttf */; };
+		B38C8415252301FF005CB041 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE9A2522EB9D006DB1E5 /* Montserrat-BlackItalic.ttf */; };
+		B38C8416252301FF005CB041 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE9F2522EB9D006DB1E5 /* Montserrat-Regular.ttf */; };
+		B38C841A25230203005CB041 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE892522EB9D006DB1E5 /* Lato-Bold.ttf */; };
+		B38C841B25230203005CB041 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE8F2522EB9D006DB1E5 /* Lato-ThinItalic.ttf */; };
+		B38C841C25230203005CB041 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE872522EB9D006DB1E5 /* Lato-LightItalic.ttf */; };
+		B38C841D25230203005CB041 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE8A2522EB9D006DB1E5 /* Lato-Black.ttf */; };
+		B38C841E25230203005CB041 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE8D2522EB9D006DB1E5 /* Lato-BoldItalic.ttf */; };
+		B38C841F25230203005CB041 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE862522EB9D006DB1E5 /* Lato-Italic.ttf */; };
+		B38C842025230203005CB041 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE8C2522EB9D006DB1E5 /* Lato-BlackItalic.ttf */; };
+		B38C842125230203005CB041 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE8E2522EB9D006DB1E5 /* Lato-Light.ttf */; };
+		B38C842225230203005CB041 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE882522EB9D006DB1E5 /* Lato-Thin.ttf */; };
+		B38C842325230203005CB041 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE8B2522EB9D006DB1E5 /* Lato-Regular.ttf */; };
+		B393BE2D2522E8CD006DB1E5 /* MedisoftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE2C2522E8CD006DB1E5 /* MedisoftApp.swift */; };
+		B393BE2F2522E8CD006DB1E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE2E2522E8CD006DB1E5 /* ContentView.swift */; };
+		B393BE312522E8CE006DB1E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B393BE302522E8CE006DB1E5 /* Assets.xcassets */; };
+		B393BE342522E8CE006DB1E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B393BE332522E8CE006DB1E5 /* Preview Assets.xcassets */; };
+		B393BE362522E8CE006DB1E5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE352522E8CE006DB1E5 /* Persistence.swift */; };
+		B393BE392522E8CE006DB1E5 /* Medisoft.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B393BE372522E8CE006DB1E5 /* Medisoft.xcdatamodeld */; };
+		B393BE442522E8CE006DB1E5 /* MedisoftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE432522E8CE006DB1E5 /* MedisoftTests.swift */; };
+		B393BE4F2522E8CE006DB1E5 /* MedisoftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE4E2522E8CE006DB1E5 /* MedisoftUITests.swift */; };
+		B393BE662522EB14006DB1E5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE622522EB13006DB1E5 /* HeaderView.swift */; };
+		B393BE672522EB14006DB1E5 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE632522EB14006DB1E5 /* Medicine.swift */; };
+		B393BE682522EB14006DB1E5 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE642522EB14006DB1E5 /* ProgressBar.swift */; };
+		B393BE692522EB14006DB1E5 /* MenuDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE652522EB14006DB1E5 /* MenuDrawer.swift */; };
+		B393BE6F2522EB34006DB1E5 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE6E2522EB34006DB1E5 /* Appointment.swift */; };
+		B393BE782522EB43006DB1E5 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE732522EB43006DB1E5 /* RecipeView.swift */; };
+		B393BE792522EB43006DB1E5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE742522EB43006DB1E5 /* HomeView.swift */; };
+		B393BE7A2522EB43006DB1E5 /* AllRecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE752522EB43006DB1E5 /* AllRecipesView.swift */; };
+		B393BE7B2522EB43006DB1E5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE762522EB43006DB1E5 /* Utils.swift */; };
+		B393BE7C2522EB43006DB1E5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE772522EB43006DB1E5 /* LoginView.swift */; };
+		B393BEA32522EB9D006DB1E5 /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE842522EB9D006DB1E5 /* TextStyles.swift */; };
+		B393BEC42522EBF5006DB1E5 /* Recipe+BL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BEC32522EBF5006DB1E5 /* Recipe+BL.swift */; };
+		B393BEC92522EE27006DB1E5 /* PastRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BEC82522EE27006DB1E5 /* PastRecipe.swift */; };
+		B393BECE2522EE4E006DB1E5 /* ActiveRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BECD2522EE4E006DB1E5 /* ActiveRecipe.swift */; };
+		B393BED32522EEB4006DB1E5 /* AppointmentPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BED22522EEB4006DB1E5 /* AppointmentPreview.swift */; };
+		B393BED82522F2FA006DB1E5 /* Medicine+BL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BED72522F2FA006DB1E5 /* Medicine+BL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B3AC784524B90DA0003601DA /* PBXContainerItemProxy */ = {
+		B393BE402522E8CE006DB1E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B3AC782824B90D9F003601DA /* Project object */;
+			containerPortal = B393BE212522E8CD006DB1E5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B3AC783324B90DA0003601DA;
-			remoteInfo = iOS;
+			remoteGlobalIDString = B393BE282522E8CD006DB1E5;
+			remoteInfo = Medisoft;
 		};
-		B3AC785024B90DA0003601DA /* PBXContainerItemProxy */ = {
+		B393BE4B2522E8CE006DB1E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B3AC782824B90D9F003601DA /* Project object */;
+			containerPortal = B393BE212522E8CD006DB1E5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B3AC783B24B90DA0003601DA;
-			remoteInfo = macOS;
+			remoteGlobalIDString = B393BE282522E8CD006DB1E5;
+			remoteInfo = Medisoft;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B3056192250FB1A4002EBD9B /* MenuDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDrawer.swift; sourceTree = "<group>"; };
-		B31DF60624BCAAAE0014DC03 /* _HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HomeView.swift; sourceTree = "<group>"; };
-		B332A07F24CE69410020ACD3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		B332A08324CE723D0020ACD3 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
-		B37FA00624CF377400552506 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
-		B3AC782D24B90D9F003601DA /* MediSoftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediSoftApp.swift; sourceTree = "<group>"; };
-		B3AC782E24B90D9F003601DA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		B3AC782F24B90DA0003601DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B3AC783424B90DA0003601DA /* MediSoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediSoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3AC783724B90DA0003601DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3AC783C24B90DA0003601DA /* MediSoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediSoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3AC783E24B90DA0003601DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3AC783F24B90DA0003601DA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		B3AC784424B90DA0003601DA /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3AC784824B90DA0003601DA /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		B3AC784A24B90DA0003601DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3AC784F24B90DA0003601DA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3AC785324B90DA0003601DA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		B3AC785524B90DA0003601DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3B5056924BAAB910079B5B7 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
-		B3B5056A24BAAB910079B5B7 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
-		B3B5056B24BAAB910079B5B7 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
-		B3B5056C24BAAB910079B5B7 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
-		B3B5056D24BAAB910079B5B7 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
-		B3B5056E24BAAB910079B5B7 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
-		B3B5056F24BAAB910079B5B7 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
-		B3B5057024BAAB910079B5B7 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
-		B3B5057124BAAB910079B5B7 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
-		B3B5057224BAAB910079B5B7 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
-		B3B5057324BAAB910079B5B7 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
-		B3B5057424BAAB910079B5B7 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
-		B3B5057524BAAB910079B5B7 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
-		B3B5057724BAAB910079B5B7 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
-		B3B5057824BAAB910079B5B7 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		B3B5057924BAAB910079B5B7 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
-		B3B5057A24BAAB910079B5B7 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		B3B5057B24BAAB910079B5B7 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		B3B5057D24BAAB910079B5B7 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
-		B3B5057E24BAAB910079B5B7 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
-		B3B5057F24BAAB910079B5B7 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
-		B3B5058024BAAB910079B5B7 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
-		B3B5058124BAAB910079B5B7 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
-		B3B5058224BAAB910079B5B7 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
-		B3B5058324BAAB910079B5B7 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
-		B3B5058524BAAB910079B5B7 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
-		B3B5058624BAAB910079B5B7 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
-		B3B5058724BAAB910079B5B7 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
-		B3B5060024BAB4370079B5B7 /* TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
+		B311F76025230A0800C19EEC /* AllCertificatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCertificatesView.swift; sourceTree = "<group>"; };
+		B311F76825230E2900C19EEC /* Certificate+BL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Certificate+BL.swift"; sourceTree = "<group>"; };
+		B311F76D25230F1400C19EEC /* CertificateComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateComponent.swift; sourceTree = "<group>"; };
+		B393BE292522E8CD006DB1E5 /* Medisoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medisoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B393BE2C2522E8CD006DB1E5 /* MedisoftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedisoftApp.swift; sourceTree = "<group>"; };
+		B393BE2E2522E8CD006DB1E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B393BE302522E8CE006DB1E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B393BE332522E8CE006DB1E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B393BE352522E8CE006DB1E5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		B393BE382522E8CE006DB1E5 /* Medisoft.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medisoft.xcdatamodel; sourceTree = "<group>"; };
+		B393BE3A2522E8CE006DB1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B393BE3F2522E8CE006DB1E5 /* MedisoftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedisoftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B393BE432522E8CE006DB1E5 /* MedisoftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedisoftTests.swift; sourceTree = "<group>"; };
+		B393BE452522E8CE006DB1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B393BE4A2522E8CE006DB1E5 /* MedisoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedisoftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B393BE4E2522E8CE006DB1E5 /* MedisoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedisoftUITests.swift; sourceTree = "<group>"; };
+		B393BE502522E8CE006DB1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B393BE622522EB13006DB1E5 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B393BE632522EB14006DB1E5 /* Medicine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		B393BE642522EB14006DB1E5 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		B393BE652522EB14006DB1E5 /* MenuDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDrawer.swift; sourceTree = "<group>"; };
+		B393BE6E2522EB34006DB1E5 /* Appointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		B393BE732522EB43006DB1E5 /* RecipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		B393BE742522EB43006DB1E5 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B393BE752522EB43006DB1E5 /* AllRecipesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllRecipesView.swift; sourceTree = "<group>"; };
+		B393BE762522EB43006DB1E5 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B393BE772522EB43006DB1E5 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B393BE842522EB9D006DB1E5 /* TextStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
+		B393BE862522EB9D006DB1E5 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		B393BE872522EB9D006DB1E5 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		B393BE882522EB9D006DB1E5 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		B393BE892522EB9D006DB1E5 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		B393BE8A2522EB9D006DB1E5 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		B393BE8B2522EB9D006DB1E5 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		B393BE8C2522EB9D006DB1E5 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B393BE8D2522EB9D006DB1E5 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B393BE8E2522EB9D006DB1E5 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		B393BE8F2522EB9D006DB1E5 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B393BE912522EB9D006DB1E5 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		B393BE922522EB9D006DB1E5 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		B393BE932522EB9D006DB1E5 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B393BE942522EB9D006DB1E5 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		B393BE952522EB9D006DB1E5 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B393BE962522EB9D006DB1E5 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B393BE972522EB9D006DB1E5 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		B393BE982522EB9D006DB1E5 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		B393BE992522EB9D006DB1E5 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B393BE9A2522EB9D006DB1E5 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B393BE9B2522EB9D006DB1E5 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		B393BE9C2522EB9D006DB1E5 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B393BE9D2522EB9D006DB1E5 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B393BE9E2522EB9D006DB1E5 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		B393BE9F2522EB9D006DB1E5 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		B393BEA02522EB9D006DB1E5 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		B393BEA12522EB9D006DB1E5 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B393BEA22522EB9D006DB1E5 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B393BEC32522EBF5006DB1E5 /* Recipe+BL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+BL.swift"; sourceTree = "<group>"; };
+		B393BEC82522EE27006DB1E5 /* PastRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastRecipe.swift; sourceTree = "<group>"; };
+		B393BECD2522EE4E006DB1E5 /* ActiveRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveRecipe.swift; sourceTree = "<group>"; };
+		B393BED22522EEB4006DB1E5 /* AppointmentPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentPreview.swift; sourceTree = "<group>"; };
+		B393BED72522F2FA006DB1E5 /* Medicine+BL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medicine+BL.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B3AC783124B90DA0003601DA /* Frameworks */ = {
+		B393BE262522E8CD006DB1E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3AC783924B90DA0003601DA /* Frameworks */ = {
+		B393BE3C2522E8CE006DB1E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3AC784124B90DA0003601DA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3AC784C24B90DA0003601DA /* Frameworks */ = {
+		B393BE472522E8CE006DB1E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -242,247 +170,240 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B332A08224CE721A0020ACD3 /* Components */ = {
+		B393BE202522E8CD006DB1E5 = {
 			isa = PBXGroup;
 			children = (
-				B332A08324CE723D0020ACD3 /* HeaderView.swift */,
-				B3056192250FB1A4002EBD9B /* MenuDrawer.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		B37FA00524CF375C00552506 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				B37FA00624CF377400552506 /* Appointment.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		B3AC782724B90D9F003601DA = {
-			isa = PBXGroup;
-			children = (
-				B3AC782C24B90D9F003601DA /* Shared */,
-				B3AC783624B90DA0003601DA /* iOS */,
-				B3AC783D24B90DA0003601DA /* macOS */,
-				B3AC784724B90DA0003601DA /* Tests iOS */,
-				B3AC785224B90DA0003601DA /* Tests macOS */,
-				B3AC783524B90DA0003601DA /* Products */,
+				B393BE2B2522E8CD006DB1E5 /* Medisoft */,
+				B393BE422522E8CE006DB1E5 /* MedisoftTests */,
+				B393BE4D2522E8CE006DB1E5 /* MedisoftUITests */,
+				B393BE2A2522E8CD006DB1E5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B3AC782C24B90D9F003601DA /* Shared */ = {
+		B393BE2A2522E8CD006DB1E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B37FA00524CF375C00552506 /* Models */,
-				B332A08224CE721A0020ACD3 /* Components */,
-				B3B5056724BAAB6E0079B5B7 /* Fonts */,
-				B3AC782D24B90D9F003601DA /* MediSoftApp.swift */,
-				B3AC782E24B90D9F003601DA /* LoginView.swift */,
-				B3AC782F24B90DA0003601DA /* Assets.xcassets */,
-				B31DF60624BCAAAE0014DC03 /* _HomeView.swift */,
-				B332A07F24CE69410020ACD3 /* HomeView.swift */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		B3AC783524B90DA0003601DA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B3AC783424B90DA0003601DA /* MediSoft.app */,
-				B3AC783C24B90DA0003601DA /* MediSoft.app */,
-				B3AC784424B90DA0003601DA /* Tests iOS.xctest */,
-				B3AC784F24B90DA0003601DA /* Tests macOS.xctest */,
+				B393BE292522E8CD006DB1E5 /* Medisoft.app */,
+				B393BE3F2522E8CE006DB1E5 /* MedisoftTests.xctest */,
+				B393BE4A2522E8CE006DB1E5 /* MedisoftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B3AC783624B90DA0003601DA /* iOS */ = {
+		B393BE2B2522E8CD006DB1E5 /* Medisoft */ = {
 			isa = PBXGroup;
 			children = (
-				B3AC783724B90DA0003601DA /* Info.plist */,
+				B393BE302522E8CE006DB1E5 /* Assets.xcassets */,
+				B393BE5F2522EADA006DB1E5 /* Component */,
+				B393BE832522EB9D006DB1E5 /* Fonts */,
+				B393BE6D2522EB25006DB1E5 /* Model */,
+				B393BE322522E8CE006DB1E5 /* Preview Content */,
+				B393BE602522EAE2006DB1E5 /* View */,
+				B393BE2E2522E8CD006DB1E5 /* ContentView.swift */,
+				B393BE2C2522E8CD006DB1E5 /* MedisoftApp.swift */,
+				B393BE352522E8CE006DB1E5 /* Persistence.swift */,
+				B393BE762522EB43006DB1E5 /* Utils.swift */,
+				B393BE372522E8CE006DB1E5 /* Medisoft.xcdatamodeld */,
+				B393BE3A2522E8CE006DB1E5 /* Info.plist */,
 			);
-			path = iOS;
+			path = Medisoft;
 			sourceTree = "<group>";
 		};
-		B3AC783D24B90DA0003601DA /* macOS */ = {
+		B393BE322522E8CE006DB1E5 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B3AC783E24B90DA0003601DA /* Info.plist */,
-				B3AC783F24B90DA0003601DA /* macOS.entitlements */,
+				B393BE332522E8CE006DB1E5 /* Preview Assets.xcassets */,
 			);
-			path = macOS;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B3AC784724B90DA0003601DA /* Tests iOS */ = {
+		B393BE422522E8CE006DB1E5 /* MedisoftTests */ = {
 			isa = PBXGroup;
 			children = (
-				B3AC784824B90DA0003601DA /* Tests_iOS.swift */,
-				B3AC784A24B90DA0003601DA /* Info.plist */,
+				B393BE432522E8CE006DB1E5 /* MedisoftTests.swift */,
+				B393BE452522E8CE006DB1E5 /* Info.plist */,
 			);
-			path = "Tests iOS";
+			path = MedisoftTests;
 			sourceTree = "<group>";
 		};
-		B3AC785224B90DA0003601DA /* Tests macOS */ = {
+		B393BE4D2522E8CE006DB1E5 /* MedisoftUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B3AC785324B90DA0003601DA /* Tests_macOS.swift */,
-				B3AC785524B90DA0003601DA /* Info.plist */,
+				B393BE4E2522E8CE006DB1E5 /* MedisoftUITests.swift */,
+				B393BE502522E8CE006DB1E5 /* Info.plist */,
 			);
-			path = "Tests macOS";
+			path = MedisoftUITests;
 			sourceTree = "<group>";
 		};
-		B3B5056724BAAB6E0079B5B7 /* Fonts */ = {
+		B393BE5F2522EADA006DB1E5 /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				B3B5057C24BAAB910079B5B7 /* Lato */,
-				B3B5056824BAAB910079B5B7 /* Montserrat */,
-				B3B5060024BAB4370079B5B7 /* TextStyles.swift */,
+				B393BE622522EB13006DB1E5 /* HeaderView.swift */,
+				B393BE632522EB14006DB1E5 /* Medicine.swift */,
+				B393BE652522EB14006DB1E5 /* MenuDrawer.swift */,
+				B393BE642522EB14006DB1E5 /* ProgressBar.swift */,
+				B393BEC82522EE27006DB1E5 /* PastRecipe.swift */,
+				B393BECD2522EE4E006DB1E5 /* ActiveRecipe.swift */,
+				B393BED22522EEB4006DB1E5 /* AppointmentPreview.swift */,
+				B311F76D25230F1400C19EEC /* CertificateComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		B393BE602522EAE2006DB1E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B393BE752522EB43006DB1E5 /* AllRecipesView.swift */,
+				B393BE742522EB43006DB1E5 /* HomeView.swift */,
+				B393BE772522EB43006DB1E5 /* LoginView.swift */,
+				B393BE732522EB43006DB1E5 /* RecipeView.swift */,
+				B311F76025230A0800C19EEC /* AllCertificatesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B393BE6D2522EB25006DB1E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B393BE6E2522EB34006DB1E5 /* Appointment.swift */,
+				B393BEC32522EBF5006DB1E5 /* Recipe+BL.swift */,
+				B393BED72522F2FA006DB1E5 /* Medicine+BL.swift */,
+				B311F76825230E2900C19EEC /* Certificate+BL.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B393BE832522EB9D006DB1E5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B393BE842522EB9D006DB1E5 /* TextStyles.swift */,
+				B393BE852522EB9D006DB1E5 /* Lato */,
+				B393BE902522EB9D006DB1E5 /* Montserrat */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		B3B5056824BAAB910079B5B7 /* Montserrat */ = {
+		B393BE852522EB9D006DB1E5 /* Lato */ = {
 			isa = PBXGroup;
 			children = (
-				B3B5056924BAAB910079B5B7 /* Montserrat-LightItalic.ttf */,
-				B3B5056A24BAAB910079B5B7 /* Montserrat-Medium.ttf */,
-				B3B5056B24BAAB910079B5B7 /* Montserrat-BoldItalic.ttf */,
-				B3B5056C24BAAB910079B5B7 /* Montserrat-Light.ttf */,
-				B3B5056D24BAAB910079B5B7 /* Montserrat-ThinItalic.ttf */,
-				B3B5056E24BAAB910079B5B7 /* Montserrat-ExtraLight.ttf */,
-				B3B5056F24BAAB910079B5B7 /* Montserrat-Thin.ttf */,
-				B3B5057024BAAB910079B5B7 /* Montserrat-Bold.ttf */,
-				B3B5057124BAAB910079B5B7 /* Montserrat-MediumItalic.ttf */,
-				B3B5057224BAAB910079B5B7 /* Montserrat-BlackItalic.ttf */,
-				B3B5057324BAAB910079B5B7 /* Montserrat-SemiBold.ttf */,
-				B3B5057424BAAB910079B5B7 /* Montserrat-ExtraLightItalic.ttf */,
-				B3B5057524BAAB910079B5B7 /* Montserrat-ExtraBold.ttf */,
-				B3B5057724BAAB910079B5B7 /* Montserrat-Black.ttf */,
-				B3B5057824BAAB910079B5B7 /* Montserrat-Regular.ttf */,
-				B3B5057924BAAB910079B5B7 /* Montserrat-Italic.ttf */,
-				B3B5057A24BAAB910079B5B7 /* Montserrat-SemiBoldItalic.ttf */,
-				B3B5057B24BAAB910079B5B7 /* Montserrat-ExtraBoldItalic.ttf */,
-			);
-			path = Montserrat;
-			sourceTree = "<group>";
-		};
-		B3B5057C24BAAB910079B5B7 /* Lato */ = {
-			isa = PBXGroup;
-			children = (
-				B3B5057D24BAAB910079B5B7 /* Lato-Italic.ttf */,
-				B3B5057E24BAAB910079B5B7 /* Lato-LightItalic.ttf */,
-				B3B5057F24BAAB910079B5B7 /* Lato-Thin.ttf */,
-				B3B5058024BAAB910079B5B7 /* Lato-Bold.ttf */,
-				B3B5058124BAAB910079B5B7 /* Lato-Black.ttf */,
-				B3B5058224BAAB910079B5B7 /* Lato-Regular.ttf */,
-				B3B5058324BAAB910079B5B7 /* Lato-BlackItalic.ttf */,
-				B3B5058524BAAB910079B5B7 /* Lato-BoldItalic.ttf */,
-				B3B5058624BAAB910079B5B7 /* Lato-Light.ttf */,
-				B3B5058724BAAB910079B5B7 /* Lato-ThinItalic.ttf */,
+				B393BE862522EB9D006DB1E5 /* Lato-Italic.ttf */,
+				B393BE872522EB9D006DB1E5 /* Lato-LightItalic.ttf */,
+				B393BE882522EB9D006DB1E5 /* Lato-Thin.ttf */,
+				B393BE892522EB9D006DB1E5 /* Lato-Bold.ttf */,
+				B393BE8A2522EB9D006DB1E5 /* Lato-Black.ttf */,
+				B393BE8B2522EB9D006DB1E5 /* Lato-Regular.ttf */,
+				B393BE8C2522EB9D006DB1E5 /* Lato-BlackItalic.ttf */,
+				B393BE8D2522EB9D006DB1E5 /* Lato-BoldItalic.ttf */,
+				B393BE8E2522EB9D006DB1E5 /* Lato-Light.ttf */,
+				B393BE8F2522EB9D006DB1E5 /* Lato-ThinItalic.ttf */,
 			);
 			path = Lato;
+			sourceTree = "<group>";
+		};
+		B393BE902522EB9D006DB1E5 /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				B393BE912522EB9D006DB1E5 /* Montserrat-LightItalic.ttf */,
+				B393BE922522EB9D006DB1E5 /* Montserrat-Medium.ttf */,
+				B393BE932522EB9D006DB1E5 /* Montserrat-BoldItalic.ttf */,
+				B393BE942522EB9D006DB1E5 /* Montserrat-Light.ttf */,
+				B393BE952522EB9D006DB1E5 /* Montserrat-ThinItalic.ttf */,
+				B393BE962522EB9D006DB1E5 /* Montserrat-ExtraLight.ttf */,
+				B393BE972522EB9D006DB1E5 /* Montserrat-Thin.ttf */,
+				B393BE982522EB9D006DB1E5 /* Montserrat-Bold.ttf */,
+				B393BE992522EB9D006DB1E5 /* Montserrat-MediumItalic.ttf */,
+				B393BE9A2522EB9D006DB1E5 /* Montserrat-BlackItalic.ttf */,
+				B393BE9B2522EB9D006DB1E5 /* Montserrat-SemiBold.ttf */,
+				B393BE9C2522EB9D006DB1E5 /* Montserrat-ExtraLightItalic.ttf */,
+				B393BE9D2522EB9D006DB1E5 /* Montserrat-ExtraBold.ttf */,
+				B393BE9E2522EB9D006DB1E5 /* Montserrat-Black.ttf */,
+				B393BE9F2522EB9D006DB1E5 /* Montserrat-Regular.ttf */,
+				B393BEA02522EB9D006DB1E5 /* Montserrat-Italic.ttf */,
+				B393BEA12522EB9D006DB1E5 /* Montserrat-SemiBoldItalic.ttf */,
+				B393BEA22522EB9D006DB1E5 /* Montserrat-ExtraBoldItalic.ttf */,
+			);
+			path = Montserrat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B3AC783324B90DA0003601DA /* iOS */ = {
+		B393BE282522E8CD006DB1E5 /* Medisoft */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3AC785E24B90DA0003601DA /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildConfigurationList = B393BE532522E8CE006DB1E5 /* Build configuration list for PBXNativeTarget "Medisoft" */;
 			buildPhases = (
-				B3AC783024B90DA0003601DA /* Sources */,
-				B3AC783124B90DA0003601DA /* Frameworks */,
-				B3AC783224B90DA0003601DA /* Resources */,
+				B393BE252522E8CD006DB1E5 /* Sources */,
+				B393BE262522E8CD006DB1E5 /* Frameworks */,
+				B393BE272522E8CD006DB1E5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = iOS;
-			productName = iOS;
-			productReference = B3AC783424B90DA0003601DA /* MediSoft.app */;
+			name = Medisoft;
+			productName = Medisoft;
+			productReference = B393BE292522E8CD006DB1E5 /* Medisoft.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B3AC783B24B90DA0003601DA /* macOS */ = {
+		B393BE3E2522E8CE006DB1E5 /* MedisoftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3AC786124B90DA0003601DA /* Build configuration list for PBXNativeTarget "macOS" */;
+			buildConfigurationList = B393BE562522E8CE006DB1E5 /* Build configuration list for PBXNativeTarget "MedisoftTests" */;
 			buildPhases = (
-				B3AC783824B90DA0003601DA /* Sources */,
-				B3AC783924B90DA0003601DA /* Frameworks */,
-				B3AC783A24B90DA0003601DA /* Resources */,
+				B393BE3B2522E8CE006DB1E5 /* Sources */,
+				B393BE3C2522E8CE006DB1E5 /* Frameworks */,
+				B393BE3D2522E8CE006DB1E5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B393BE412522E8CE006DB1E5 /* PBXTargetDependency */,
 			);
-			name = macOS;
-			productName = macOS;
-			productReference = B3AC783C24B90DA0003601DA /* MediSoft.app */;
-			productType = "com.apple.product-type.application";
+			name = MedisoftTests;
+			productName = MedisoftTests;
+			productReference = B393BE3F2522E8CE006DB1E5 /* MedisoftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B3AC784324B90DA0003601DA /* Tests iOS */ = {
+		B393BE492522E8CE006DB1E5 /* MedisoftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3AC786424B90DA0003601DA /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildConfigurationList = B393BE592522E8CE006DB1E5 /* Build configuration list for PBXNativeTarget "MedisoftUITests" */;
 			buildPhases = (
-				B3AC784024B90DA0003601DA /* Sources */,
-				B3AC784124B90DA0003601DA /* Frameworks */,
-				B3AC784224B90DA0003601DA /* Resources */,
+				B393BE462522E8CE006DB1E5 /* Sources */,
+				B393BE472522E8CE006DB1E5 /* Frameworks */,
+				B393BE482522E8CE006DB1E5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B3AC784624B90DA0003601DA /* PBXTargetDependency */,
+				B393BE4C2522E8CE006DB1E5 /* PBXTargetDependency */,
 			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = B3AC784424B90DA0003601DA /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		B3AC784E24B90DA0003601DA /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B3AC786724B90DA0003601DA /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				B3AC784B24B90DA0003601DA /* Sources */,
-				B3AC784C24B90DA0003601DA /* Frameworks */,
-				B3AC784D24B90DA0003601DA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B3AC785124B90DA0003601DA /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = B3AC784F24B90DA0003601DA /* Tests macOS.xctest */;
+			name = MedisoftUITests;
+			productName = MedisoftUITests;
+			productReference = B393BE4A2522E8CE006DB1E5 /* MedisoftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B3AC782824B90D9F003601DA /* Project object */ = {
+		B393BE212522E8CD006DB1E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					B3AC783324B90DA0003601DA = {
-						CreatedOnToolsVersion = 12.0;
+					B393BE282522E8CD006DB1E5 = {
+						CreatedOnToolsVersion = 12.0.1;
 					};
-					B3AC783B24B90DA0003601DA = {
-						CreatedOnToolsVersion = 12.0;
+					B393BE3E2522E8CE006DB1E5 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B393BE282522E8CD006DB1E5;
 					};
-					B3AC784324B90DA0003601DA = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = B3AC783324B90DA0003601DA;
-					};
-					B3AC784E24B90DA0003601DA = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = B3AC783B24B90DA0003601DA;
+					B393BE492522E8CE006DB1E5 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B393BE282522E8CD006DB1E5;
 					};
 				};
 			};
-			buildConfigurationList = B3AC782B24B90D9F003601DA /* Build configuration list for PBXProject "MediSoft" */;
+			buildConfigurationList = B393BE242522E8CD006DB1E5 /* Build configuration list for PBXProject "Medisoft" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -490,229 +411,136 @@
 				en,
 				Base,
 			);
-			mainGroup = B3AC782724B90D9F003601DA;
-			productRefGroup = B3AC783524B90DA0003601DA /* Products */;
+			mainGroup = B393BE202522E8CD006DB1E5;
+			productRefGroup = B393BE2A2522E8CD006DB1E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B3AC783324B90DA0003601DA /* iOS */,
-				B3AC783B24B90DA0003601DA /* macOS */,
-				B3AC784324B90DA0003601DA /* Tests iOS */,
-				B3AC784E24B90DA0003601DA /* Tests macOS */,
+				B393BE282522E8CD006DB1E5 /* Medisoft */,
+				B393BE3E2522E8CE006DB1E5 /* MedisoftTests */,
+				B393BE492522E8CE006DB1E5 /* MedisoftUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B3AC783224B90DA0003601DA /* Resources */ = {
+		B393BE272522E8CD006DB1E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B505CC24BAAB910079B5B7 /* Montserrat-SemiBoldItalic.ttf in Resources */,
-				B3B505D424BAAB910079B5B7 /* Lato-Italic.ttf in Resources */,
-				B3B505A824BAAB910079B5B7 /* Montserrat-MediumItalic.ttf in Resources */,
-				B3B505F424BAAB910079B5B7 /* Lato-BoldItalic.ttf in Resources */,
-				B3B505C424BAAB910079B5B7 /* Montserrat-Regular.ttf in Resources */,
-				B3B505EC24BAAB910079B5B7 /* Lato-BlackItalic.ttf in Resources */,
-				B3B5059424BAAB910079B5B7 /* Montserrat-Light.ttf in Resources */,
-				B3B505DC24BAAB910079B5B7 /* Lato-Thin.ttf in Resources */,
-				B3B505E024BAAB910079B5B7 /* Lato-Bold.ttf in Resources */,
-				B3B505B424BAAB910079B5B7 /* Montserrat-ExtraLightItalic.ttf in Resources */,
-				B3B5059024BAAB910079B5B7 /* Montserrat-BoldItalic.ttf in Resources */,
-				B3B505AC24BAAB910079B5B7 /* Montserrat-BlackItalic.ttf in Resources */,
-				B3B505B824BAAB910079B5B7 /* Montserrat-ExtraBold.ttf in Resources */,
-				B3B5059824BAAB910079B5B7 /* Montserrat-ThinItalic.ttf in Resources */,
-				B3B505F824BAAB910079B5B7 /* Lato-Light.ttf in Resources */,
-				B3B505D824BAAB910079B5B7 /* Lato-LightItalic.ttf in Resources */,
-				B3B505FC24BAAB910079B5B7 /* Lato-ThinItalic.ttf in Resources */,
-				B3B5059C24BAAB910079B5B7 /* Montserrat-ExtraLight.ttf in Resources */,
-				B3B505C024BAAB910079B5B7 /* Montserrat-Black.ttf in Resources */,
-				B3B505B024BAAB910079B5B7 /* Montserrat-SemiBold.ttf in Resources */,
-				B3B5058824BAAB910079B5B7 /* Montserrat-LightItalic.ttf in Resources */,
-				B3B505A424BAAB910079B5B7 /* Montserrat-Bold.ttf in Resources */,
-				B3B5058C24BAAB910079B5B7 /* Montserrat-Medium.ttf in Resources */,
-				B3B505C824BAAB910079B5B7 /* Montserrat-Italic.ttf in Resources */,
-				B3B505D024BAAB910079B5B7 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
-				B3B505A024BAAB910079B5B7 /* Montserrat-Thin.ttf in Resources */,
-				B3B505E824BAAB910079B5B7 /* Lato-Regular.ttf in Resources */,
-				B3B505E424BAAB910079B5B7 /* Lato-Black.ttf in Resources */,
-				B3AC785A24B90DA0003601DA /* Assets.xcassets in Resources */,
+				B38C8407252301FF005CB041 /* Montserrat-Medium.ttf in Resources */,
+				B38C8412252301FF005CB041 /* Montserrat-LightItalic.ttf in Resources */,
+				B38C841F25230203005CB041 /* Lato-Italic.ttf in Resources */,
+				B393BE342522E8CE006DB1E5 /* Preview Assets.xcassets in Resources */,
+				B38C8415252301FF005CB041 /* Montserrat-BlackItalic.ttf in Resources */,
+				B38C842025230203005CB041 /* Lato-BlackItalic.ttf in Resources */,
+				B38C841E25230203005CB041 /* Lato-BoldItalic.ttf in Resources */,
+				B38C842325230203005CB041 /* Lato-Regular.ttf in Resources */,
+				B38C841D25230203005CB041 /* Lato-Black.ttf in Resources */,
+				B38C8413252301FF005CB041 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				B38C8411252301FF005CB041 /* Montserrat-SemiBold.ttf in Resources */,
+				B38C8409252301FF005CB041 /* Montserrat-MediumItalic.ttf in Resources */,
+				B38C841B25230203005CB041 /* Lato-ThinItalic.ttf in Resources */,
+				B38C841A25230203005CB041 /* Lato-Bold.ttf in Resources */,
+				B38C840B252301FF005CB041 /* Montserrat-ThinItalic.ttf in Resources */,
+				B393BE312522E8CE006DB1E5 /* Assets.xcassets in Resources */,
+				B38C8416252301FF005CB041 /* Montserrat-Regular.ttf in Resources */,
+				B38C8406252301FF005CB041 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				B38C840D252301FF005CB041 /* Montserrat-BoldItalic.ttf in Resources */,
+				B38C840F252301FF005CB041 /* Montserrat-Italic.ttf in Resources */,
+				B38C8414252301FF005CB041 /* Montserrat-Bold.ttf in Resources */,
+				B38C8408252301FF005CB041 /* Montserrat-ExtraLight.ttf in Resources */,
+				B38C8405252301FF005CB041 /* Montserrat-Light.ttf in Resources */,
+				B38C842225230203005CB041 /* Lato-Thin.ttf in Resources */,
+				B38C840E252301FF005CB041 /* Montserrat-ExtraBold.ttf in Resources */,
+				B38C841C25230203005CB041 /* Lato-LightItalic.ttf in Resources */,
+				B38C840C252301FF005CB041 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				B38C8410252301FF005CB041 /* Montserrat-Thin.ttf in Resources */,
+				B38C840A252301FF005CB041 /* Montserrat-Black.ttf in Resources */,
+				B38C842125230203005CB041 /* Lato-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3AC783A24B90DA0003601DA /* Resources */ = {
+		B393BE3D2522E8CE006DB1E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B505CD24BAAB910079B5B7 /* Montserrat-SemiBoldItalic.ttf in Resources */,
-				B3B505D524BAAB910079B5B7 /* Lato-Italic.ttf in Resources */,
-				B3B505A924BAAB910079B5B7 /* Montserrat-MediumItalic.ttf in Resources */,
-				B3B505F524BAAB910079B5B7 /* Lato-BoldItalic.ttf in Resources */,
-				B3B505C524BAAB910079B5B7 /* Montserrat-Regular.ttf in Resources */,
-				B3B505ED24BAAB910079B5B7 /* Lato-BlackItalic.ttf in Resources */,
-				B3B5059524BAAB910079B5B7 /* Montserrat-Light.ttf in Resources */,
-				B3B505DD24BAAB910079B5B7 /* Lato-Thin.ttf in Resources */,
-				B3B505E124BAAB910079B5B7 /* Lato-Bold.ttf in Resources */,
-				B3B505B524BAAB910079B5B7 /* Montserrat-ExtraLightItalic.ttf in Resources */,
-				B3B5059124BAAB910079B5B7 /* Montserrat-BoldItalic.ttf in Resources */,
-				B3B505AD24BAAB910079B5B7 /* Montserrat-BlackItalic.ttf in Resources */,
-				B3B505B924BAAB910079B5B7 /* Montserrat-ExtraBold.ttf in Resources */,
-				B3B5059924BAAB910079B5B7 /* Montserrat-ThinItalic.ttf in Resources */,
-				B3B505F924BAAB910079B5B7 /* Lato-Light.ttf in Resources */,
-				B3B505D924BAAB910079B5B7 /* Lato-LightItalic.ttf in Resources */,
-				B3B505FD24BAAB910079B5B7 /* Lato-ThinItalic.ttf in Resources */,
-				B3B5059D24BAAB910079B5B7 /* Montserrat-ExtraLight.ttf in Resources */,
-				B3B505C124BAAB910079B5B7 /* Montserrat-Black.ttf in Resources */,
-				B3B505B124BAAB910079B5B7 /* Montserrat-SemiBold.ttf in Resources */,
-				B3B5058924BAAB910079B5B7 /* Montserrat-LightItalic.ttf in Resources */,
-				B3B505A524BAAB910079B5B7 /* Montserrat-Bold.ttf in Resources */,
-				B3B5058D24BAAB910079B5B7 /* Montserrat-Medium.ttf in Resources */,
-				B3B505C924BAAB910079B5B7 /* Montserrat-Italic.ttf in Resources */,
-				B3B505D124BAAB910079B5B7 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
-				B3B505A124BAAB910079B5B7 /* Montserrat-Thin.ttf in Resources */,
-				B3B505E924BAAB910079B5B7 /* Lato-Regular.ttf in Resources */,
-				B3B505E524BAAB910079B5B7 /* Lato-Black.ttf in Resources */,
-				B3AC785B24B90DA0003601DA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3AC784224B90DA0003601DA /* Resources */ = {
+		B393BE482522E8CE006DB1E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B505CE24BAAB910079B5B7 /* Montserrat-SemiBoldItalic.ttf in Resources */,
-				B3B505D224BAAB910079B5B7 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
-				B3B505C624BAAB910079B5B7 /* Montserrat-Regular.ttf in Resources */,
-				B3B505E624BAAB910079B5B7 /* Lato-Black.ttf in Resources */,
-				B3B5059624BAAB910079B5B7 /* Montserrat-Light.ttf in Resources */,
-				B3B505FA24BAAB910079B5B7 /* Lato-Light.ttf in Resources */,
-				B3B505FE24BAAB910079B5B7 /* Lato-ThinItalic.ttf in Resources */,
-				B3B505B224BAAB910079B5B7 /* Montserrat-SemiBold.ttf in Resources */,
-				B3B5059E24BAAB910079B5B7 /* Montserrat-ExtraLight.ttf in Resources */,
-				B3B505CA24BAAB910079B5B7 /* Montserrat-Italic.ttf in Resources */,
-				B3B5059224BAAB910079B5B7 /* Montserrat-BoldItalic.ttf in Resources */,
-				B3B505E224BAAB910079B5B7 /* Lato-Bold.ttf in Resources */,
-				B3B505AE24BAAB910079B5B7 /* Montserrat-BlackItalic.ttf in Resources */,
-				B3B505D624BAAB910079B5B7 /* Lato-Italic.ttf in Resources */,
-				B3B505B624BAAB910079B5B7 /* Montserrat-ExtraLightItalic.ttf in Resources */,
-				B3B5058E24BAAB910079B5B7 /* Montserrat-Medium.ttf in Resources */,
-				B3B505DA24BAAB910079B5B7 /* Lato-LightItalic.ttf in Resources */,
-				B3B505AA24BAAB910079B5B7 /* Montserrat-MediumItalic.ttf in Resources */,
-				B3B505EA24BAAB910079B5B7 /* Lato-Regular.ttf in Resources */,
-				B3B505F624BAAB910079B5B7 /* Lato-BoldItalic.ttf in Resources */,
-				B3B505EE24BAAB910079B5B7 /* Lato-BlackItalic.ttf in Resources */,
-				B3B505DE24BAAB910079B5B7 /* Lato-Thin.ttf in Resources */,
-				B3B505BA24BAAB910079B5B7 /* Montserrat-ExtraBold.ttf in Resources */,
-				B3B505A624BAAB910079B5B7 /* Montserrat-Bold.ttf in Resources */,
-				B3B505C224BAAB910079B5B7 /* Montserrat-Black.ttf in Resources */,
-				B3B5058A24BAAB910079B5B7 /* Montserrat-LightItalic.ttf in Resources */,
-				B3B5059A24BAAB910079B5B7 /* Montserrat-ThinItalic.ttf in Resources */,
-				B3B505A224BAAB910079B5B7 /* Montserrat-Thin.ttf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3AC784D24B90DA0003601DA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B3B505CF24BAAB910079B5B7 /* Montserrat-SemiBoldItalic.ttf in Resources */,
-				B3B505D324BAAB910079B5B7 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
-				B3B505C724BAAB910079B5B7 /* Montserrat-Regular.ttf in Resources */,
-				B3B505E724BAAB910079B5B7 /* Lato-Black.ttf in Resources */,
-				B3B5059724BAAB910079B5B7 /* Montserrat-Light.ttf in Resources */,
-				B3B505FB24BAAB910079B5B7 /* Lato-Light.ttf in Resources */,
-				B3B505FF24BAAB910079B5B7 /* Lato-ThinItalic.ttf in Resources */,
-				B3B505B324BAAB910079B5B7 /* Montserrat-SemiBold.ttf in Resources */,
-				B3B5059F24BAAB910079B5B7 /* Montserrat-ExtraLight.ttf in Resources */,
-				B3B505CB24BAAB910079B5B7 /* Montserrat-Italic.ttf in Resources */,
-				B3B5059324BAAB910079B5B7 /* Montserrat-BoldItalic.ttf in Resources */,
-				B3B505E324BAAB910079B5B7 /* Lato-Bold.ttf in Resources */,
-				B3B505AF24BAAB910079B5B7 /* Montserrat-BlackItalic.ttf in Resources */,
-				B3B505D724BAAB910079B5B7 /* Lato-Italic.ttf in Resources */,
-				B3B505B724BAAB910079B5B7 /* Montserrat-ExtraLightItalic.ttf in Resources */,
-				B3B5058F24BAAB910079B5B7 /* Montserrat-Medium.ttf in Resources */,
-				B3B505DB24BAAB910079B5B7 /* Lato-LightItalic.ttf in Resources */,
-				B3B505AB24BAAB910079B5B7 /* Montserrat-MediumItalic.ttf in Resources */,
-				B3B505EB24BAAB910079B5B7 /* Lato-Regular.ttf in Resources */,
-				B3B505F724BAAB910079B5B7 /* Lato-BoldItalic.ttf in Resources */,
-				B3B505EF24BAAB910079B5B7 /* Lato-BlackItalic.ttf in Resources */,
-				B3B505DF24BAAB910079B5B7 /* Lato-Thin.ttf in Resources */,
-				B3B505BB24BAAB910079B5B7 /* Montserrat-ExtraBold.ttf in Resources */,
-				B3B505A724BAAB910079B5B7 /* Montserrat-Bold.ttf in Resources */,
-				B3B505C324BAAB910079B5B7 /* Montserrat-Black.ttf in Resources */,
-				B3B5058B24BAAB910079B5B7 /* Montserrat-LightItalic.ttf in Resources */,
-				B3B5059B24BAAB910079B5B7 /* Montserrat-ThinItalic.ttf in Resources */,
-				B3B505A324BAAB910079B5B7 /* Montserrat-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B3AC783024B90DA0003601DA /* Sources */ = {
+		B393BE252522E8CD006DB1E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B5060124BAB4370079B5B7 /* TextStyles.swift in Sources */,
-				B332A08424CE723D0020ACD3 /* HeaderView.swift in Sources */,
-				B31DF60724BCAAAE0014DC03 /* _HomeView.swift in Sources */,
-				B3AC785824B90DA0003601DA /* LoginView.swift in Sources */,
-				B332A08024CE69410020ACD3 /* HomeView.swift in Sources */,
-				B3056193250FB1A4002EBD9B /* MenuDrawer.swift in Sources */,
-				B37FA00724CF377400552506 /* Appointment.swift in Sources */,
-				B3AC785624B90DA0003601DA /* MediSoftApp.swift in Sources */,
+				B393BED32522EEB4006DB1E5 /* AppointmentPreview.swift in Sources */,
+				B393BE662522EB14006DB1E5 /* HeaderView.swift in Sources */,
+				B393BE672522EB14006DB1E5 /* Medicine.swift in Sources */,
+				B393BED82522F2FA006DB1E5 /* Medicine+BL.swift in Sources */,
+				B311F76E25230F1400C19EEC /* CertificateComponent.swift in Sources */,
+				B393BE7A2522EB43006DB1E5 /* AllRecipesView.swift in Sources */,
+				B393BE392522E8CE006DB1E5 /* Medisoft.xcdatamodeld in Sources */,
+				B393BE6F2522EB34006DB1E5 /* Appointment.swift in Sources */,
+				B393BE7B2522EB43006DB1E5 /* Utils.swift in Sources */,
+				B393BE782522EB43006DB1E5 /* RecipeView.swift in Sources */,
+				B393BECE2522EE4E006DB1E5 /* ActiveRecipe.swift in Sources */,
+				B393BE792522EB43006DB1E5 /* HomeView.swift in Sources */,
+				B311F76925230E2900C19EEC /* Certificate+BL.swift in Sources */,
+				B393BE7C2522EB43006DB1E5 /* LoginView.swift in Sources */,
+				B393BEC92522EE27006DB1E5 /* PastRecipe.swift in Sources */,
+				B311F76125230A0800C19EEC /* AllCertificatesView.swift in Sources */,
+				B393BE362522E8CE006DB1E5 /* Persistence.swift in Sources */,
+				B393BE2F2522E8CD006DB1E5 /* ContentView.swift in Sources */,
+				B393BEC42522EBF5006DB1E5 /* Recipe+BL.swift in Sources */,
+				B393BE692522EB14006DB1E5 /* MenuDrawer.swift in Sources */,
+				B393BEA32522EB9D006DB1E5 /* TextStyles.swift in Sources */,
+				B393BE2D2522E8CD006DB1E5 /* MedisoftApp.swift in Sources */,
+				B393BE682522EB14006DB1E5 /* ProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3AC783824B90DA0003601DA /* Sources */ = {
+		B393BE3B2522E8CE006DB1E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B5060224BAB4370079B5B7 /* TextStyles.swift in Sources */,
-				B332A08524CE723D0020ACD3 /* HeaderView.swift in Sources */,
-				B3056194250FB1A4002EBD9B /* MenuDrawer.swift in Sources */,
-				B31DF60824BCAAAE0014DC03 /* _HomeView.swift in Sources */,
-				B3AC785924B90DA0003601DA /* LoginView.swift in Sources */,
-				B332A08124CE69410020ACD3 /* HomeView.swift in Sources */,
-				B3AC785724B90DA0003601DA /* MediSoftApp.swift in Sources */,
+				B393BE442522E8CE006DB1E5 /* MedisoftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3AC784024B90DA0003601DA /* Sources */ = {
+		B393BE462522E8CE006DB1E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B5060324BAB4370079B5B7 /* TextStyles.swift in Sources */,
-				B3AC784924B90DA0003601DA /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3AC784B24B90DA0003601DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B3B5060424BAB4370079B5B7 /* TextStyles.swift in Sources */,
-				B3AC785424B90DA0003601DA /* Tests_macOS.swift in Sources */,
+				B393BE4F2522E8CE006DB1E5 /* MedisoftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B3AC784624B90DA0003601DA /* PBXTargetDependency */ = {
+		B393BE412522E8CE006DB1E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B3AC783324B90DA0003601DA /* iOS */;
-			targetProxy = B3AC784524B90DA0003601DA /* PBXContainerItemProxy */;
+			target = B393BE282522E8CD006DB1E5 /* Medisoft */;
+			targetProxy = B393BE402522E8CE006DB1E5 /* PBXContainerItemProxy */;
 		};
-		B3AC785124B90DA0003601DA /* PBXTargetDependency */ = {
+		B393BE4C2522E8CE006DB1E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B3AC783B24B90DA0003601DA /* macOS */;
-			targetProxy = B3AC785024B90DA0003601DA /* PBXContainerItemProxy */;
+			target = B393BE282522E8CD006DB1E5 /* Medisoft */;
+			targetProxy = B393BE4B2522E8CE006DB1E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		B3AC785C24B90DA0003601DA /* Debug */ = {
+		B393BE512522E8CE006DB1E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -763,15 +591,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		B3AC785D24B90DA0003601DA /* Release */ = {
+		B393BE522522E8CE006DB1E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -816,238 +646,197 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-			};
-			name = Release;
-		};
-		B3AC785F24B90DA0003601DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54ERY2PPTQ;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = guillermobernal.espol.MediSoft;
-				PRODUCT_NAME = MediSoft;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B3AC786024B90DA0003601DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54ERY2PPTQ;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = guillermobernal.espol.MediSoft;
-				PRODUCT_NAME = MediSoft;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		B3AC786224B90DA0003601DA /* Debug */ = {
+		B393BE542522E8CE006DB1E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Medisoft/Preview Content\"";
 				DEVELOPMENT_TEAM = 54ERY2PPTQ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_FILE = Medisoft/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = guillermobernal.espol.MediSoft;
-				PRODUCT_NAME = MediSoft;
-				SDKROOT = macosx;
+				PRODUCT_BUNDLE_IDENTIFIER = guillermobernal.pasantias.espol.Medisoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B3AC786324B90DA0003601DA /* Release */ = {
+		B393BE552522E8CE006DB1E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Medisoft/Preview Content\"";
 				DEVELOPMENT_TEAM = 54ERY2PPTQ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_FILE = Medisoft/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = guillermobernal.espol.MediSoft;
-				PRODUCT_NAME = MediSoft;
-				SDKROOT = macosx;
+				PRODUCT_BUNDLE_IDENTIFIER = guillermobernal.pasantias.espol.Medisoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		B3AC786524B90DA0003601DA /* Debug */ = {
+		B393BE572522E8CE006DB1E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				DEVELOPMENT_TEAM = 54ERY2PPTQ;
+				INFOPLIST_FILE = MedisoftTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "guillermobernal.espol.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = guillermobernal.pasantias.espol.MedisoftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iOS;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medisoft.app/Medisoft";
 			};
 			name = Debug;
 		};
-		B3AC786624B90DA0003601DA /* Release */ = {
+		B393BE582522E8CE006DB1E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				DEVELOPMENT_TEAM = 54ERY2PPTQ;
+				INFOPLIST_FILE = MedisoftTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "guillermobernal.espol.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = guillermobernal.pasantias.espol.MedisoftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iOS;
-				VALIDATE_PRODUCT = YES;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medisoft.app/Medisoft";
 			};
 			name = Release;
 		};
-		B3AC786824B90DA0003601DA /* Debug */ = {
+		B393BE5A2522E8CE006DB1E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				DEVELOPMENT_TEAM = 54ERY2PPTQ;
+				INFOPLIST_FILE = MedisoftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = "guillermobernal.espol.Tests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = guillermobernal.pasantias.espol.MedisoftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = macOS;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Medisoft;
 			};
 			name = Debug;
 		};
-		B3AC786924B90DA0003601DA /* Release */ = {
+		B393BE5B2522E8CE006DB1E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				DEVELOPMENT_TEAM = 54ERY2PPTQ;
+				INFOPLIST_FILE = MedisoftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = "guillermobernal.espol.Tests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = guillermobernal.pasantias.espol.MedisoftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = macOS;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Medisoft;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B3AC782B24B90D9F003601DA /* Build configuration list for PBXProject "MediSoft" */ = {
+		B393BE242522E8CD006DB1E5 /* Build configuration list for PBXProject "Medisoft" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3AC785C24B90DA0003601DA /* Debug */,
-				B3AC785D24B90DA0003601DA /* Release */,
+				B393BE512522E8CE006DB1E5 /* Debug */,
+				B393BE522522E8CE006DB1E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3AC785E24B90DA0003601DA /* Build configuration list for PBXNativeTarget "iOS" */ = {
+		B393BE532522E8CE006DB1E5 /* Build configuration list for PBXNativeTarget "Medisoft" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3AC785F24B90DA0003601DA /* Debug */,
-				B3AC786024B90DA0003601DA /* Release */,
+				B393BE542522E8CE006DB1E5 /* Debug */,
+				B393BE552522E8CE006DB1E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3AC786124B90DA0003601DA /* Build configuration list for PBXNativeTarget "macOS" */ = {
+		B393BE562522E8CE006DB1E5 /* Build configuration list for PBXNativeTarget "MedisoftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3AC786224B90DA0003601DA /* Debug */,
-				B3AC786324B90DA0003601DA /* Release */,
+				B393BE572522E8CE006DB1E5 /* Debug */,
+				B393BE582522E8CE006DB1E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3AC786424B90DA0003601DA /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+		B393BE592522E8CE006DB1E5 /* Build configuration list for PBXNativeTarget "MedisoftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3AC786524B90DA0003601DA /* Debug */,
-				B3AC786624B90DA0003601DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B3AC786724B90DA0003601DA /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B3AC786824B90DA0003601DA /* Debug */,
-				B3AC786924B90DA0003601DA /* Release */,
+				B393BE5A2522E8CE006DB1E5 /* Debug */,
+				B393BE5B2522E8CE006DB1E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B393BE372522E8CE006DB1E5 /* Medisoft.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B393BE382522E8CE006DB1E5 /* Medisoft.xcdatamodel */,
+			);
+			currentVersion = B393BE382522E8CE006DB1E5 /* Medisoft.xcdatamodel */;
+			path = Medisoft.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = B3AC782824B90D9F003601DA /* Project object */;
+	rootObject = B393BE212522E8CD006DB1E5 /* Project object */;
 }

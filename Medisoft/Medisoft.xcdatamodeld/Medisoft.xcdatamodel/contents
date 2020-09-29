@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="20A5374i" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AppointmentInfo" representedClassName="AppointmentInfo" syncable="YES" codeGenerationType="class">
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="drName" attributeType="String"/>
+        <attribute name="id" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <attribute name="location" attributeType="String"/>
+        <attribute name="specialty" attributeType="String"/>
+    </entity>
+    <entity name="Certificate" representedClassName="Certificate" syncable="YES" codeGenerationType="class">
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="drName" attributeType="String"/>
+        <attribute name="id" attributeType="String"/>
+        <attribute name="pdfURL" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="Medicine" representedClassName="Medicine" syncable="YES" codeGenerationType="class">
+        <attribute name="boughtOn" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="cantidad" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="duracionDias" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="formaFarmaceutica" attributeType="String"/>
+        <attribute name="frecuencia" attributeType="String"/>
+        <attribute name="id" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <attribute name="principioActivo" attributeType="String"/>
+        <attribute name="scheduledEnd" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="scheduledStart" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="viaAdministracion" attributeType="String"/>
+        <relationship name="recipe" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Recipe" inverseName="medicines" inverseEntity="Recipe"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="Recipe" representedClassName="Recipe" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <attribute name="pdfURL" attributeType="String"/>
+        <relationship name="appointment" maxCount="1" deletionRule="Cascade" destinationEntity="AppointmentInfo"/>
+        <relationship name="medicines" toMany="YES" deletionRule="Cascade" destinationEntity="Medicine" inverseName="recipe" inverseEntity="Medicine"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="AppointmentInfo" positionX="9" positionY="54" width="128" height="104"/>
+        <element name="Medicine" positionX="-36" positionY="18" width="128" height="194"/>
+        <element name="Recipe" positionX="-9" positionY="36" width="128" height="89"/>
+        <element name="Certificate" positionX="-9" positionY="108" width="128" height="89"/>
+    </elements>
+</model>
