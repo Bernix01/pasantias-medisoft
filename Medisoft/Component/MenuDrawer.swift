@@ -26,6 +26,7 @@ struct MenuContent: View {
             .padding(.bottom, 32).padding(.horizontal).padding(.top)
             
             VStack(alignment: .leading) {
+                NavigationLink(destination: AllExams()) {
                 HStack(spacing: 16.0) {
                     Image("Orders")
                         .resizable().aspectRatio(1, contentMode: .fit)
@@ -35,6 +36,7 @@ struct MenuContent: View {
                         .foregroundColor(Color("BlackColor"))
                     Spacer()
                 }.padding(.all)
+                }
                 NavigationLink(destination: AllRecipesView()) {
                     HStack(spacing: 16.0) {
                         Image("Recipes")

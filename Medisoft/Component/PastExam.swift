@@ -7,14 +7,18 @@
 
 import SwiftUI
 
-struct PastRecipe: View {
+struct PastExam: View {
     let recipe: Recipe
 
     var body: some View {
         VStack(alignment: .leading) {
-            Text("#\(recipe.id!)")
-                .font(FontNameManager.menu)
-                .padding(.bottom, 5.0)
+            HStack {
+                Text("#\(recipe.id!)")
+                    .font(FontNameManager.menu)
+                    .padding(.bottom, 5.0)
+                Spacer()
+                Text("LABORATORIO")
+            }
             DrInfoComponent(drName: recipe.appointment!.drName!,
                    specialty: recipe.appointment!.specialty!)
             HStack {
@@ -22,17 +26,17 @@ struct PastRecipe: View {
                     .font(FontNameManager.body2Bold)
                     .foregroundColor(Color("GreyColor"))
                     .padding(.top, 4.0)
-                Text("\(recipe.medicineArray.count) medicamento(s)")
+                Text("4 exámenes")
                 Spacer()
             }
         }
         .padding(.all)
         .background(RoundedRectangle(cornerRadius: 10)
-                        .fill(Color("DisabledColor")))
+                        .fill(Color.white))
     }
 }
 
-struct PastRecipe_Previews: PreviewProvider {
+struct PastExam_Previews: PreviewProvider {
 
     static var previews: some View {
         let recipe = Recipe(context: PersistenceController.preview.container.viewContext)
@@ -60,6 +64,6 @@ struct PastRecipe_Previews: PreviewProvider {
         recipe.medicines = [med]
         recipe.pdfURL = "https://www.google.com"
 
-        return PastRecipe(recipe: recipe).previewLayout(.fixed(width: /*@START_MENU_TOKEN@*/300.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)).environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        return PastExam(recipe: recipe).previewLayout(.fixed(width: /*@START_MENU_TOKEN@*/300.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)).environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }

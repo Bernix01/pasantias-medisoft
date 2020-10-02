@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AllRecipesView: View {
+struct AllExams: View {
 
     
     @Environment(\.managedObjectContext) private var viewContext
@@ -18,40 +18,39 @@ struct AllRecipesView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
-                Text("En curso")
+                Text("Pendientes")
                     .font(FontNameManager.title)
                     .foregroundColor(Color("BlackColor"))
                     .padding(.top)
                 LazyVStack(spacing: 12) {
                     ForEach(recipes, id: \.id) { recipe in
-                        ActiveRecipe(recipe: recipe)
+                        PendingExam(recipe: recipe)
                     }
                 }
-                Text("Pasadas")
+                Text("Relaizados")
                     .font(FontNameManager.title)
                     .foregroundColor(Color("BlackColor"))
                     .padding(.top)
                 LazyVStack(spacing: 12) {
-                    ForEach(recipes, id: \.self) {recipe in
-                        PastRecipe(recipe: recipe)
+                    ForEach(recipes, id: \.self) { recipe in
+                        PastExam(recipe: recipe)
                     }
                 }
             }
             .padding(.all)
         }
-        .navigationTitle("Recetas")
+        .navigationTitle("Órdenes de exámenes")
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarColor(backgroundColor: UIColor(named: "PrimaryColor") ?? UIColor.black, tintColor: .white)
     }
 }
 
-struct AllRecipesView_Previews: PreviewProvider {
+struct AllExams_Previews: PreviewProvider {
     static var previews: some View {
-
-            NavigationView{
-                AllRecipesView()
-            }
-            .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        NavigationView{
+            AllExams()
+        }
+        .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
 

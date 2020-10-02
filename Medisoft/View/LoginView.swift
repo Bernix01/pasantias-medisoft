@@ -70,6 +70,7 @@ struct LoginView: View {
                 }.padding(.horizontal)
                 .buttonStyle(WideButtonStyle(bgColor: Color("PrimaryColor")))
                 Spacer()
+
             }
             .padding(.horizontal)
         }

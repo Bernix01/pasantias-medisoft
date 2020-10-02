@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct AllCertificatesView: View {
 
@@ -22,13 +23,18 @@ struct AllCertificatesView: View {
                     CertificateComponent(certificate: certificate)
                 }
             }.padding()
+            .navigationTitle("Certificados")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarColor(backgroundColor: UIColor(named: "PrimaryColor") ?? UIColor.black, tintColor: .white)
         }
     }
 }
 
 struct CertificatesView_Previews: PreviewProvider {
     static var previews: some View {
-        AllCertificatesView()
-            .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        NavigationView{
+            AllCertificatesView()
+        }
+        .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }

@@ -8,7 +8,7 @@
 import SwiftUI
 import CoreData
 
-struct ActiveRecipe: View {
+struct PendingExam: View {
     let recipe: Recipe
     let columns = [
         GridItem(.flexible()),
@@ -18,42 +18,35 @@ struct ActiveRecipe: View {
     var body: some View {
         NavigationLink(destination: RecipeView(recipe: recipe)) {
             VStack(alignment: .leading) {
-                Text("#\(recipe.wrappedID)")
-                    .font(FontNameManager.title)
-                    .padding(.bottom, 5.0)
-                Text("5/6 comprados")
-                    .font(FontNameManager.title4)
+                HStack {
+                    Text("#\(recipe.wrappedID)")
+                        .font(FontNameManager.title)
+                        .foregroundColor(Color("BlackColor"))
+                        .padding(.bottom, 5.0)
+                    Spacer()
+                    Text("LABORATORIO")
+                }
+                Text("5/6 realizados")
+                    .font(FontNameManager.title3)
                     .foregroundColor(Color("GreyColor"))
                     .padding(.bottom, 4.0)
                 DrInfoComponent(drName: recipe.appointment!.drName!,
                        specialty: recipe.appointment!.specialty!)
-                VStack(alignment: .leading) {
-                    Text("Incluye:")
-                        .font(FontNameManager.menuBold)
-                        .foregroundColor(Color("GreyColor"))
-                        .padding(.top, 4.0)
-                    LazyVGrid(columns: columns, alignment: .leading) {
-                        ForEach(recipe.medicineArray, id: \.id) { medicine in
-                            HStack {
-                                Circle()
-                                    .frame(width: 8, height: 8, alignment: .center)
-                                    .foregroundColor(Color("BlackColor"))
-                                Text(medicine.wrappedPrincipioActivo)
-                                    .font(FontNameManager.body)
-                                    .foregroundColor(Color("BlackColor"))
-                            }
+                Text("Incluye:")
+                    .font(FontNameManager.menuBold)
+                    .foregroundColor(Color("GreyColor"))
+                    .padding(.top, 4.0)
+                LazyVGrid(columns: columns, alignment: .leading) {
+                    ForEach(recipe.medicineArray, id: \.id) { medicine in
+                        HStack {
+                            Circle()
+                                .frame(width: 8, height: 8, alignment: .center)
+                                .foregroundColor(Color("BlackColor"))
+                            Text(medicine.wrappedPrincipioActivo)
+                                .font(FontNameManager.body)
+                                .foregroundColor(Color("BlackColor"))
                         }
                     }
-                }
-                ProgressBar(value: .constant(0.4)).frame(height: 16)
-                HStack {
-                    Text("\(recipe.startDate, formatter: startDateFormatter)")
-                        .font(FontNameManager.body2)
-                        .foregroundColor(Color("BlackColor"))
-                    Spacer()
-                    Text("\(recipe.daysLeft) días restantes")
-                        .font(FontNameManager.body2)
-                        .foregroundColor(Color("BlackColor"))
                 }
             }
             .padding(.all)
@@ -73,7 +66,7 @@ struct ActiveRecipe: View {
 
 
 
-struct ActiveRecipe_Previews: PreviewProvider {
+struct PendingExam_Previews: PreviewProvider {
 
 
     static var previews: some View {
@@ -103,6 +96,6 @@ struct ActiveRecipe_Previews: PreviewProvider {
         recipe.medicines = [med]
         recipe.pdfURL = "https://www.google.com"
 
-        return ActiveRecipe(recipe: recipe).previewLayout(.fixed(width: 400.0, height: 300.0)).environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        return PendingExam(recipe: recipe).previewLayout(.fixed(width: 400.0, height: 300.0)).environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }

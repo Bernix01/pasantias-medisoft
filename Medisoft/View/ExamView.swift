@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RecipeView: View {
+struct ExamView: View {
 
     var recipe: Recipe
 
@@ -60,15 +60,13 @@ struct RecipeView: View {
                             .fill(Color.white).shadow(color: Color("ShadowColor"), radius: 3, x: 0, y: 1))
             .padding(.all)
             .navigationBarColor(backgroundColor: UIColor(named: "PrimaryColor") ?? UIColor.black, tintColor: .white)
-            .navigationTitle("Receta")
-            .navigationBarTitleDisplayMode(.inline)
         }
 
     }
 
 }
 
-struct RecipeView_Previews: PreviewProvider {
+struct ExamView_Previews: PreviewProvider {
 
     static var previews: some View {
 
@@ -100,7 +98,7 @@ struct RecipeView_Previews: PreviewProvider {
 
         return
             NavigationView{
-                RecipeView(recipe: recipe)
+                ExamView(recipe: recipe)
             }.environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }

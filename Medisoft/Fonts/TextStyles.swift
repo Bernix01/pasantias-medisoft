@@ -60,6 +60,9 @@ struct FontNameManager {
     /// Montserrat Black 14
     static let title3 = Font.custom(Montserrat.black, size: 14)
 
+    /// Montserrat Bold 15
+    static let title4 = Font.custom(Montserrat.bold, size: 15)
+
     /// Lato Regular 14
     static let body = Font.custom(Lato.regular, size: 14)
 
