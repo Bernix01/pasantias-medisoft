@@ -52,6 +52,7 @@ struct PastRecipe_Previews: PreviewProvider {
         med.formaFarmaceutica = "Solución inyectable de 120ml"
         med.frecuencia = "8h"
         med.duracionDias = 12
+        med.dosis = "500gr"
         med.viaAdministracion = "IV - Intravenoso"
         med.cantidad = 16
         med.scheduledStart = Date()

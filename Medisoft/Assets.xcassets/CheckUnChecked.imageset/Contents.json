@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "CheckUnChecked.png",
+      "filename" : "Icon ionic-ios-checkmark-circle-outline.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "CheckUnChecked@2x.png",
+      "filename" : "Icon ionic-ios-checkmark-circle-outline@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "CheckUnChecked@3x.png",
+      "filename" : "Icon ionic-ios-checkmark-circle-outline@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

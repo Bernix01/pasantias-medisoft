@@ -83,7 +83,6 @@ struct RecipeView_Previews: PreviewProvider {
         apmt.location = "Los Álamos"
         recipe.appointment = apmt
         let med = Medicine(context: PersistenceController.preview.container.viewContext)
-
         med.id = "12"
         med.principioActivo = "Metronizadol"
         med.formaFarmaceutica = "Solución inyectable de 120ml"
@@ -91,10 +90,51 @@ struct RecipeView_Previews: PreviewProvider {
         med.duracionDias = 12
         med.viaAdministracion = "IV - Intravenoso"
         med.cantidad = 16
-        med.scheduledStart = Date()
+        med.scheduledStart = Calendar.current.date(byAdding: .day,value: 3, to: Date())
+        med.dosis = "500gr"
         med.scheduledEnd = Calendar.current.date(byAdding: .day, value: 16, to: Date())!
+        med.boughtOn = nil
+        
+        let med2 = Medicine(context: PersistenceController.preview.container.viewContext)
+        med2.id = "123"
+        med2.principioActivo = "Metronizadol"
+        med2.formaFarmaceutica = "Solución inyectable de 120ml"
+        med2.frecuencia = "8h"
+        med2.duracionDias = 12
+        med2.viaAdministracion = "IV - Intravenoso"
+        med2.cantidad = 16
+        med2.scheduledStart = Calendar.current.date(byAdding: .day,value: -3, to: Date())
+        med2.dosis = "500gr"
+        med2.scheduledEnd = Calendar.current.date(byAdding: .day, value: 16, to: Date())!
+        med2.boughtOn = nil
+        
+        let med3 = Medicine(context: PersistenceController.preview.container.viewContext)
+        med3.id = "1234"
+        med3.principioActivo = "Metronizadol"
+        med3.formaFarmaceutica = "Solución inyectable de 120ml"
+        med3.frecuencia = "8h"
+        med3.duracionDias = 12
+        med3.viaAdministracion = "IV - Intravenoso"
+        med3.cantidad = 16
+        med3.boughtOn = Calendar.current.date(byAdding: .day, value: -4, to: Date())
+        med3.scheduledStart = Calendar.current.date(byAdding: .day,value: -3, to: Date())
+        med3.dosis = "500gr"
+        med3.scheduledEnd = Calendar.current.date(byAdding: .day, value: 16, to: Date())!
+        
+        let med4 = Medicine(context: PersistenceController.preview.container.viewContext)
+        med4.id = "12345"
+        med4.principioActivo = "Metronizadol"
+        med4.formaFarmaceutica = "Solución inyectable de 120ml"
+        med4.frecuencia = "8h"
+        med4.duracionDias = 12
+        med4.viaAdministracion = "IV - Intravenoso"
+        med4.cantidad = 16
+        med4.boughtOn = Calendar.current.date(byAdding: .day,value: -2, to: Date())
+        med4.scheduledStart = Calendar.current.date(byAdding: .day,value: -3, to: Date())
+        med4.dosis = "500gr"
+        med4.scheduledEnd = Calendar.current.date(byAdding: .day, value: 10, to: Date())!
 
-        recipe.medicines = [med]
+        recipe.medicines = [med, med2, med3, med4]
         recipe.pdfURL = "https://www.google.com"
 
 

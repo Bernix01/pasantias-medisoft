@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50683F68252BE26A00721421 /* JitsiMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507D09E1252BC03B00DF36E6 /* JitsiMeet.framework */; };
+		50683F69252BE26A00721421 /* JitsiMeet.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 507D09E1252BC03B00DF36E6 /* JitsiMeet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		50683F6B252BE26C00721421 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507D09E2252BC03C00DF36E6 /* WebRTC.framework */; };
+		50683F6C252BE26C00721421 /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 507D09E2252BC03C00DF36E6 /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		509CEAD3252CFA3F00CA4D6F /* JitsiMeetComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509CEAD2252CFA3F00CA4D6F /* JitsiMeetComponent.swift */; };
+		509CEADB252D19D600CA4D6F /* ConferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509CEADA252D19D600CA4D6F /* ConferenceView.swift */; };
 		B302CDA625265681000947F9 /* DrInfoComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B302CDA525265681000947F9 /* DrInfoComponent.swift */; };
 		B311F76125230A0800C19EEC /* AllCertificatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311F76025230A0800C19EEC /* AllCertificatesView.swift */; };
 		B311F76925230E2900C19EEC /* Certificate+BL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311F76825230E2900C19EEC /* Certificate+BL.swift */; };
@@ -52,7 +58,7 @@
 		B393BE442522E8CE006DB1E5 /* MedisoftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE432522E8CE006DB1E5 /* MedisoftTests.swift */; };
 		B393BE4F2522E8CE006DB1E5 /* MedisoftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE4E2522E8CE006DB1E5 /* MedisoftUITests.swift */; };
 		B393BE662522EB14006DB1E5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE622522EB13006DB1E5 /* HeaderView.swift */; };
-		B393BE672522EB14006DB1E5 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE632522EB14006DB1E5 /* Medicine.swift */; };
+		B393BE672522EB14006DB1E5 /* MedicineComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE632522EB14006DB1E5 /* MedicineComponent.swift */; };
 		B393BE682522EB14006DB1E5 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE642522EB14006DB1E5 /* ProgressBar.swift */; };
 		B393BE692522EB14006DB1E5 /* MenuDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE652522EB14006DB1E5 /* MenuDrawer.swift */; };
 		B393BE6F2522EB34006DB1E5 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BE6E2522EB34006DB1E5 /* Appointment.swift */; };
@@ -86,7 +92,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		50683F6A252BE26A00721421 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				50683F69252BE26A00721421 /* JitsiMeet.framework in Embed Frameworks */,
+				50683F6C252BE26C00721421 /* WebRTC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		507D09E1252BC03B00DF36E6 /* JitsiMeet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JitsiMeet.framework; sourceTree = "<group>"; };
+		507D09E2252BC03C00DF36E6 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+		509CEAD2252CFA3F00CA4D6F /* JitsiMeetComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JitsiMeetComponent.swift; sourceTree = "<group>"; };
+		509CEADA252D19D600CA4D6F /* ConferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceView.swift; sourceTree = "<group>"; };
 		B302CDA525265681000947F9 /* DrInfoComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrInfoComponent.swift; sourceTree = "<group>"; };
 		B311F76025230A0800C19EEC /* AllCertificatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCertificatesView.swift; sourceTree = "<group>"; };
 		B311F76825230E2900C19EEC /* Certificate+BL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Certificate+BL.swift"; sourceTree = "<group>"; };
@@ -110,7 +135,7 @@
 		B393BE4E2522E8CE006DB1E5 /* MedisoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedisoftUITests.swift; sourceTree = "<group>"; };
 		B393BE502522E8CE006DB1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B393BE622522EB13006DB1E5 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
-		B393BE632522EB14006DB1E5 /* Medicine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		B393BE632522EB14006DB1E5 /* MedicineComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineComponent.swift; sourceTree = "<group>"; };
 		B393BE642522EB14006DB1E5 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		B393BE652522EB14006DB1E5 /* MenuDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDrawer.swift; sourceTree = "<group>"; };
 		B393BE6E2522EB34006DB1E5 /* Appointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
@@ -160,6 +185,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50683F68252BE26A00721421 /* JitsiMeet.framework in Frameworks */,
+				50683F6B252BE26C00721421 /* WebRTC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +207,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		507D09E0252BC02400DF36E6 /* Jitsi */ = {
+			isa = PBXGroup;
+			children = (
+				507D09E1252BC03B00DF36E6 /* JitsiMeet.framework */,
+				507D09E2252BC03C00DF36E6 /* WebRTC.framework */,
+			);
+			path = Jitsi;
+			sourceTree = "<group>";
+		};
 		B393BE202522E8CD006DB1E5 = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +239,7 @@
 		B393BE2B2522E8CD006DB1E5 /* Medisoft */ = {
 			isa = PBXGroup;
 			children = (
+				507D09E0252BC02400DF36E6 /* Jitsi */,
 				B393BE302522E8CE006DB1E5 /* Assets.xcassets */,
 				B393BE5F2522EADA006DB1E5 /* Component */,
 				B393BE832522EB9D006DB1E5 /* Fonts */,
@@ -248,8 +285,9 @@
 		B393BE5F2522EADA006DB1E5 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				509CEAD2252CFA3F00CA4D6F /* JitsiMeetComponent.swift */,
 				B393BE622522EB13006DB1E5 /* HeaderView.swift */,
-				B393BE632522EB14006DB1E5 /* Medicine.swift */,
+				B393BE632522EB14006DB1E5 /* MedicineComponent.swift */,
 				B393BE652522EB14006DB1E5 /* MenuDrawer.swift */,
 				B393BE642522EB14006DB1E5 /* ProgressBar.swift */,
 				B393BEC82522EE27006DB1E5 /* PastRecipe.swift */,
@@ -273,6 +311,7 @@
 				B343C4BD2523802800C1375A /* AllExamsView.swift */,
 				B343C4B42523801500C1375A /* ExamView.swift */,
 				B311F76025230A0800C19EEC /* AllCertificatesView.swift */,
+				509CEADA252D19D600CA4D6F /* ConferenceView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -350,6 +389,7 @@
 				B393BE252522E8CD006DB1E5 /* Sources */,
 				B393BE262522E8CD006DB1E5 /* Frameworks */,
 				B393BE272522E8CD006DB1E5 /* Resources */,
+				50683F6A252BE26A00721421 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -418,7 +458,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B393BE242522E8CD006DB1E5 /* Build configuration list for PBXProject "Medisoft" */;
+			buildConfigurationList = B393BE242522E8CD006DB1E5 /* Build configuration list for PBXProject "MediSoft" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -500,7 +540,7 @@
 				B393BED32522EEB4006DB1E5 /* AppointmentPreview.swift in Sources */,
 				B302CDA625265681000947F9 /* DrInfoComponent.swift in Sources */,
 				B393BE662522EB14006DB1E5 /* HeaderView.swift in Sources */,
-				B393BE672522EB14006DB1E5 /* Medicine.swift in Sources */,
+				B393BE672522EB14006DB1E5 /* MedicineComponent.swift in Sources */,
 				B393BED82522F2FA006DB1E5 /* Medicine+BL.swift in Sources */,
 				B311F76E25230F1400C19EEC /* CertificateComponent.swift in Sources */,
 				B393BE7A2522EB43006DB1E5 /* AllRecipesView.swift in Sources */,
@@ -515,12 +555,14 @@
 				B393BE7C2522EB43006DB1E5 /* LoginView.swift in Sources */,
 				B393BEC92522EE27006DB1E5 /* PastRecipe.swift in Sources */,
 				B343C4D125238B6800C1375A /* PendingExam.swift in Sources */,
+				509CEADB252D19D600CA4D6F /* ConferenceView.swift in Sources */,
 				B311F76125230A0800C19EEC /* AllCertificatesView.swift in Sources */,
 				B393BE362522E8CE006DB1E5 /* Persistence.swift in Sources */,
 				B393BE2F2522E8CD006DB1E5 /* ContentView.swift in Sources */,
 				B393BEC42522EBF5006DB1E5 /* Recipe+BL.swift in Sources */,
 				B393BE692522EB14006DB1E5 /* MenuDrawer.swift in Sources */,
 				B393BEA32522EB9D006DB1E5 /* TextStyles.swift in Sources */,
+				509CEAD3252CFA3F00CA4D6F /* JitsiMeetComponent.swift in Sources */,
 				B393BE2D2522E8CD006DB1E5 /* MedisoftApp.swift in Sources */,
 				B343C4C92523881000C1375A /* PastExam.swift in Sources */,
 				B343C4B52523801500C1375A /* ExamView.swift in Sources */,
@@ -684,7 +726,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Medisoft/Preview Content\"";
 				DEVELOPMENT_TEAM = 54ERY2PPTQ;
+				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Medisoft/Jitsi",
+				);
 				INFOPLIST_FILE = Medisoft/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -706,7 +753,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Medisoft/Preview Content\"";
 				DEVELOPMENT_TEAM = 54ERY2PPTQ;
+				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Medisoft/Jitsi",
+				);
 				INFOPLIST_FILE = Medisoft/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -807,7 +859,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B393BE242522E8CD006DB1E5 /* Build configuration list for PBXProject "Medisoft" */ = {
+		B393BE242522E8CD006DB1E5 /* Build configuration list for PBXProject "MediSoft" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B393BE512522E8CE006DB1E5 /* Debug */,

@@ -24,9 +24,7 @@ struct HomeView: View {
                                 .font(FontNameManager.title)
                                 .multilineTextAlignment(.leading)
                             Spacer()
-                            Button {
-
-                            } label: {
+                            NavigationLink (destination: ConferenceView()) {
                                 Image(systemName: "calendar")
                                     .foregroundColor(.white)
                             }

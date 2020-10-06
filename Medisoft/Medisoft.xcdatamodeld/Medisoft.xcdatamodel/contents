@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="20A5374i" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="AppointmentInfo" representedClassName="AppointmentInfo" syncable="YES" codeGenerationType="class">
         <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="drName" attributeType="String"/>
@@ -21,11 +21,13 @@
     <entity name="Medicine" representedClassName="Medicine" syncable="YES" codeGenerationType="class">
         <attribute name="boughtOn" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="cantidad" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="dosis" attributeType="String"/>
         <attribute name="duracionDias" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="formaFarmaceutica" attributeType="String"/>
         <attribute name="frecuencia" attributeType="String"/>
         <attribute name="id" attributeType="String" spotlightIndexingEnabled="YES"/>
         <attribute name="principioActivo" attributeType="String"/>
+        <attribute name="resetDays" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
         <attribute name="scheduledEnd" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="scheduledStart" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="viaAdministracion" attributeType="String"/>
@@ -49,8 +51,8 @@
     </entity>
     <elements>
         <element name="AppointmentInfo" positionX="9" positionY="54" width="128" height="104"/>
-        <element name="Medicine" positionX="-36" positionY="18" width="128" height="194"/>
-        <element name="Recipe" positionX="-9" positionY="36" width="128" height="89"/>
         <element name="Certificate" positionX="-9" positionY="108" width="128" height="89"/>
+        <element name="Medicine" positionX="-36" positionY="18" width="128" height="238"/>
+        <element name="Recipe" positionX="-9" positionY="36" width="128" height="89"/>
     </elements>
 </model>
