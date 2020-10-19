@@ -56,7 +56,7 @@ extension Medicine {
                                          value: Int(duracionDias),
                                          to: dateBought) ?? Date()
         }
-        return wrappedScheduledStart
+        return wrappedScheduledEnd
     }
 
     var remainingDays: Int {
@@ -84,23 +84,21 @@ extension Medicine {
         
         var color: Color {
             switch self {
-            case .fineBought, .fineNotBought:
+            case .fineBought:
                 return .accentColor
             case .lateBought:
-                return Color("PresencialColor")
-            case .lateNotBought:
                 return Color("TeleconsultaColor")
+            case .lateNotBought, .fineNotBought:
+                return Color("PresencialColor")
             }
         }
         
         var textColor: Color {
             switch self {
-            case .fineBought, .fineNotBought:
+            case .fineBought, .fineNotBought, .lateBought:
                 return Color("GreyColor")
-            case .lateBought:
-                return Color("PresencialColor")
             case .lateNotBought:
-                return Color("TeleconsultaColor")
+                return Color("PresencialColor")
             }
         }
         

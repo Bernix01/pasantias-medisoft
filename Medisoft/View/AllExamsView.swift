@@ -13,7 +13,7 @@ struct AllExams: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(entity: Recipe.entity(), sortDescriptors: [])
-    var recipes: FetchedResults<Recipe>
+    var orders: FetchedResults<ExamsOrder>
 
     var body: some View {
         ScrollView {
@@ -23,8 +23,8 @@ struct AllExams: View {
                     .foregroundColor(Color("BlackColor"))
                     .padding(.top)
                 LazyVStack(spacing: 12) {
-                    ForEach(recipes, id: \.id) { recipe in
-                        PendingExam(recipe: recipe)
+                    ForEach(orders, id: \.id) { order in
+                        PendingExamsOrderComponent(order: order)
                     }
                 }
                 Text("Relaizados")
@@ -32,8 +32,8 @@ struct AllExams: View {
                     .foregroundColor(Color("BlackColor"))
                     .padding(.top)
                 LazyVStack(spacing: 12) {
-                    ForEach(recipes, id: \.self) { recipe in
-                        PastExam(recipe: recipe)
+                    ForEach(orders, id: \.self) { order in
+                        PastExamsOrderComponent(order: order)
                     }
                 }
             }

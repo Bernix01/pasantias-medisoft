@@ -40,7 +40,7 @@ struct PersistenceController {
             certificate.pdfURL = "https://www.google.com"
 
             let recipe = Recipe(context: viewContext)
-            recipe.id = "00\(id)"
+            recipe.id = "01\(id)"
 
             let apmt = AppointmentInfo(context: viewContext)
             apmt.id = "4"
@@ -49,57 +49,74 @@ struct PersistenceController {
             apmt.specialty = "Medicina General"
             apmt.location = "Los Álamos"
             recipe.appointment = apmt
+            let scheduledStart: Date = Calendar.current.date(byAdding: .day,value: 3, to: Date())!
+            let scheduledEnd: Date = Calendar.current.date(byAdding: .day, value: 16, to: Date())!
+            let duration = Calendar.current.dateComponents([.day], from: scheduledStart, to: scheduledEnd).day!
             let med = Medicine(context: viewContext)
-            med.id = "12\(id)"
-            med.principioActivo = "Metronizadol"
+            med.id = "\(id)12"
+            med.principioActivo = "Diclofenaco"
             med.formaFarmaceutica = "Solución inyectable de 120ml"
             med.frecuencia = "8h"
-            med.duracionDias = 12
+            med.duracionDias = Int32(duration)
             med.viaAdministracion = "IV - Intravenoso"
             med.cantidad = 16
-            med.scheduledStart = Calendar.current.date(byAdding: .day,value: 3, to: Date())
+            med.scheduledStart = scheduledStart
             med.dosis = "500gr"
-            med.scheduledEnd = Calendar.current.date(byAdding: .day, value: 16, to: Date())!
+            med.scheduledEnd = scheduledEnd
             med.boughtOn = nil
-
+            
+            
+            let scheduledStart2: Date = Calendar.current.date(byAdding: .day,value: -3, to: Date())!
+            let scheduledEnd2: Date = Calendar.current.date(byAdding: .day, value: 16, to: Date())!
+            let duration2 = Calendar.current.dateComponents([.day], from: scheduledStart2, to: scheduledEnd2).day!
             let med2 = Medicine(context: viewContext)
-            med2.id = "123\(id)"
+            med2.id = "\(id)12345"
             med2.principioActivo = "Metronizadol"
             med2.formaFarmaceutica = "Solución inyectable de 120ml"
             med2.frecuencia = "8h"
-            med2.duracionDias = 12
+            med2.duracionDias = Int32(duration2)
             med2.viaAdministracion = "IV - Intravenoso"
             med2.cantidad = 16
-            med2.scheduledStart = Calendar.current.date(byAdding: .day,value: -3, to: Date())
+            med2.scheduledStart = scheduledStart2
             med2.dosis = "500gr"
-            med2.scheduledEnd = Calendar.current.date(byAdding: .day, value: 16, to: Date())!
+            med2.scheduledEnd = scheduledEnd2
             med2.boughtOn = nil
-
+            
+            
+            let scheduledStart3: Date = Calendar.current.date(byAdding: .day,value: -3, to: Date())!
+            let scheduledEnd3: Date = Calendar.current.date(byAdding: .day, value: 10, to: Date())!
+            let duration3 = Calendar.current.dateComponents([.day], from: scheduledStart3, to: scheduledEnd3).day!
+            let boughtOn3: Date? = Calendar.current.date(byAdding: .day,value: -6, to: Date())
             let med3 = Medicine(context: viewContext)
-            med3.id = "1234\(id)"
-            med3.principioActivo = "Metronizadol"
+            med3.id = "\(id)1234"
+            med3.principioActivo = "Paracetamol"
             med3.formaFarmaceutica = "Solución inyectable de 120ml"
             med3.frecuencia = "8h"
-            med3.duracionDias = 12
+            med3.duracionDias = Int32(duration3)
             med3.viaAdministracion = "IV - Intravenoso"
             med3.cantidad = 16
-            med3.boughtOn = Calendar.current.date(byAdding: .day, value: -4, to: Date())
-            med3.scheduledStart = Calendar.current.date(byAdding: .day,value: -3, to: Date())
+            med3.boughtOn = boughtOn3
+            med3.scheduledStart = scheduledStart3
             med3.dosis = "500gr"
-            med3.scheduledEnd = Calendar.current.date(byAdding: .day, value: 16, to: Date())!
+            med3.scheduledEnd = scheduledEnd3
             
+            
+            let scheduledStart4: Date = Calendar.current.date(byAdding: .day,value: -3, to: Date())!
+            let scheduledEnd4: Date = Calendar.current.date(byAdding: .day, value: 16, to: Date())!
+            let duration4 = Calendar.current.dateComponents([.day], from: scheduledStart4, to: scheduledEnd4).day!
+            let boughtOn4: Date = Calendar.current.date(byAdding: .day,value: -2, to: Date())!
             let med4 = Medicine(context: viewContext)
-            med4.id = "12345\(id)"
-            med4.principioActivo = "Metronizadol"
+            med4.id = "\(id)1235"
+            med4.principioActivo = "Aspirina"
             med4.formaFarmaceutica = "Solución inyectable de 120ml"
             med4.frecuencia = "8h"
-            med4.duracionDias = 12
+            med4.duracionDias = Int32(duration4)
             med4.viaAdministracion = "IV - Intravenoso"
             med4.cantidad = 16
-            med4.boughtOn = Calendar.current.date(byAdding: .day,value: -2, to: Date())
-            med4.scheduledStart = Calendar.current.date(byAdding: .day,value: -3, to: Date())
+            med4.boughtOn = boughtOn4
+            med4.scheduledStart = scheduledStart4
             med4.dosis = "500gr"
-            med4.scheduledEnd = Calendar.current.date(byAdding: .day, value: 10, to: Date())!
+            med4.scheduledEnd = scheduledEnd4
 
             recipe.medicines = [med, med2, med3, med4]
             recipe.pdfURL = "https://www.google.com"

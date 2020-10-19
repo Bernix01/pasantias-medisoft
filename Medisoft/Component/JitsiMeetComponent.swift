@@ -10,6 +10,7 @@ import JitsiMeet
 
 struct JitsiMeetComponent: UIViewRepresentable {
     let room: String
+    @Binding var shouldEnd: Bool
     let onEnd: ()-> ()
     
     func makeCoordinator() -> Coordinator {
@@ -27,6 +28,9 @@ struct JitsiMeetComponent: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: JitsiMeetView, context: Context) {
+        if shouldEnd {
+            context.coordinator.conferenceTerminated([:])
+        }
     }
     
     typealias UIViewType = JitsiMeetView
@@ -49,6 +53,6 @@ struct JitsiMeetComponent: UIViewRepresentable {
 
 struct JitsiMeetComponent_Previews: PreviewProvider {
     static var previews: some View {
-        JitsiMeetComponent(room: "test1234") {}
+        JitsiMeetComponent(room: "test1234", shouldEnd: .constant(false)) {}
     }
 }

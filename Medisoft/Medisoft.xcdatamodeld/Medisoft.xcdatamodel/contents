@@ -18,6 +18,21 @@
             </uniquenessConstraint>
         </uniquenessConstraints>
     </entity>
+    <entity name="Exam" representedClassName="Exam" syncable="YES" codeGenerationType="class">
+        <attribute name="family" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="takenOn" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="ExamsOrder" representedClassName="ExamsOrder" syncable="YES" codeGenerationType="class">
+        <attribute name="drName" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="pdfURL" optional="YES" attributeType="String"/>
+        <attribute name="preExamIndications" optional="YES" attributeType="String"/>
+        <attribute name="specialty" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="exams" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Exam"/>
+    </entity>
     <entity name="Medicine" representedClassName="Medicine" syncable="YES" codeGenerationType="class">
         <attribute name="boughtOn" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="cantidad" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
@@ -54,5 +69,7 @@
         <element name="Certificate" positionX="-9" positionY="108" width="128" height="89"/>
         <element name="Medicine" positionX="-36" positionY="18" width="128" height="238"/>
         <element name="Recipe" positionX="-9" positionY="36" width="128" height="89"/>
+        <element name="Exam" positionX="-9" positionY="126" width="128" height="103"/>
+        <element name="ExamsOrder" positionX="0" positionY="135" width="128" height="148"/>
     </elements>
 </model>

@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ConferenceView: View {
     @Environment(\.presentationMode) var presentation
+    
+    @State private var shouldEnd: Bool = false
+    
     var body: some View {
-        JitsiMeetComponent(room: "FatCupsTellWeirdly") {
+        JitsiMeetComponent(room: "FatCupsTellWeirdly",shouldEnd: $shouldEnd ) {
             presentation.wrappedValue.dismiss()
         }
         .navigationTitle("Consulta #123")

@@ -13,14 +13,16 @@
 		50683F6C252BE26C00721421 /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 507D09E2252BC03C00DF36E6 /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		509CEAD3252CFA3F00CA4D6F /* JitsiMeetComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509CEAD2252CFA3F00CA4D6F /* JitsiMeetComponent.swift */; };
 		509CEADB252D19D600CA4D6F /* ConferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509CEADA252D19D600CA4D6F /* ConferenceView.swift */; };
+		509CEAEB252D3D9700CA4D6F /* ExamsOrder+BL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509CEAEA252D3D9700CA4D6F /* ExamsOrder+BL.swift */; };
+		509ED741253D40DA00CD1C35 /* MedicineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509ED740253D40DA00CD1C35 /* MedicineTests.swift */; };
 		B302CDA625265681000947F9 /* DrInfoComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B302CDA525265681000947F9 /* DrInfoComponent.swift */; };
 		B311F76125230A0800C19EEC /* AllCertificatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311F76025230A0800C19EEC /* AllCertificatesView.swift */; };
 		B311F76925230E2900C19EEC /* Certificate+BL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311F76825230E2900C19EEC /* Certificate+BL.swift */; };
 		B311F76E25230F1400C19EEC /* CertificateComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311F76D25230F1400C19EEC /* CertificateComponent.swift */; };
-		B343C4B52523801500C1375A /* ExamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B343C4B42523801500C1375A /* ExamView.swift */; };
+		B343C4B52523801500C1375A /* ExamsOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B343C4B42523801500C1375A /* ExamsOrderView.swift */; };
 		B343C4BE2523802800C1375A /* AllExamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B343C4BD2523802800C1375A /* AllExamsView.swift */; };
-		B343C4C92523881000C1375A /* PastExam.swift in Sources */ = {isa = PBXBuildFile; fileRef = B343C4C82523881000C1375A /* PastExam.swift */; };
-		B343C4D125238B6800C1375A /* PendingExam.swift in Sources */ = {isa = PBXBuildFile; fileRef = B343C4D025238B6800C1375A /* PendingExam.swift */; };
+		B343C4C92523881000C1375A /* PastExamsOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B343C4C82523881000C1375A /* PastExamsOrder.swift */; };
+		B343C4D125238B6800C1375A /* PendingExamsOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B343C4D025238B6800C1375A /* PendingExamsOrder.swift */; };
 		B38C8405252301FF005CB041 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE942522EB9D006DB1E5 /* Montserrat-Light.ttf */; };
 		B38C8406252301FF005CB041 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BEA22522EB9D006DB1E5 /* Montserrat-ExtraBoldItalic.ttf */; };
 		B38C8407252301FF005CB041 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B393BE922522EB9D006DB1E5 /* Montserrat-Medium.ttf */; };
@@ -112,14 +114,16 @@
 		507D09E2252BC03C00DF36E6 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
 		509CEAD2252CFA3F00CA4D6F /* JitsiMeetComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JitsiMeetComponent.swift; sourceTree = "<group>"; };
 		509CEADA252D19D600CA4D6F /* ConferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceView.swift; sourceTree = "<group>"; };
+		509CEAEA252D3D9700CA4D6F /* ExamsOrder+BL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExamsOrder+BL.swift"; sourceTree = "<group>"; };
+		509ED740253D40DA00CD1C35 /* MedicineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineTests.swift; sourceTree = "<group>"; };
 		B302CDA525265681000947F9 /* DrInfoComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrInfoComponent.swift; sourceTree = "<group>"; };
 		B311F76025230A0800C19EEC /* AllCertificatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCertificatesView.swift; sourceTree = "<group>"; };
 		B311F76825230E2900C19EEC /* Certificate+BL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Certificate+BL.swift"; sourceTree = "<group>"; };
 		B311F76D25230F1400C19EEC /* CertificateComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateComponent.swift; sourceTree = "<group>"; };
-		B343C4B42523801500C1375A /* ExamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamView.swift; sourceTree = "<group>"; };
+		B343C4B42523801500C1375A /* ExamsOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamsOrderView.swift; sourceTree = "<group>"; };
 		B343C4BD2523802800C1375A /* AllExamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllExamsView.swift; sourceTree = "<group>"; };
-		B343C4C82523881000C1375A /* PastExam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastExam.swift; sourceTree = "<group>"; };
-		B343C4D025238B6800C1375A /* PendingExam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingExam.swift; sourceTree = "<group>"; };
+		B343C4C82523881000C1375A /* PastExamsOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastExamsOrder.swift; sourceTree = "<group>"; };
+		B343C4D025238B6800C1375A /* PendingExamsOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingExamsOrder.swift; sourceTree = "<group>"; };
 		B393BE292522E8CD006DB1E5 /* Medisoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medisoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B393BE2C2522E8CD006DB1E5 /* MedisoftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedisoftApp.swift; sourceTree = "<group>"; };
 		B393BE2E2522E8CD006DB1E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -269,6 +273,7 @@
 			children = (
 				B393BE432522E8CE006DB1E5 /* MedisoftTests.swift */,
 				B393BE452522E8CE006DB1E5 /* Info.plist */,
+				509ED740253D40DA00CD1C35 /* MedicineTests.swift */,
 			);
 			path = MedisoftTests;
 			sourceTree = "<group>";
@@ -291,9 +296,9 @@
 				B393BE652522EB14006DB1E5 /* MenuDrawer.swift */,
 				B393BE642522EB14006DB1E5 /* ProgressBar.swift */,
 				B393BEC82522EE27006DB1E5 /* PastRecipe.swift */,
-				B343C4C82523881000C1375A /* PastExam.swift */,
+				B343C4C82523881000C1375A /* PastExamsOrder.swift */,
 				B393BECD2522EE4E006DB1E5 /* ActiveRecipe.swift */,
-				B343C4D025238B6800C1375A /* PendingExam.swift */,
+				B343C4D025238B6800C1375A /* PendingExamsOrder.swift */,
 				B393BED22522EEB4006DB1E5 /* AppointmentPreview.swift */,
 				B311F76D25230F1400C19EEC /* CertificateComponent.swift */,
 				B302CDA525265681000947F9 /* DrInfoComponent.swift */,
@@ -309,7 +314,7 @@
 				B393BE772522EB43006DB1E5 /* LoginView.swift */,
 				B393BE732522EB43006DB1E5 /* RecipeView.swift */,
 				B343C4BD2523802800C1375A /* AllExamsView.swift */,
-				B343C4B42523801500C1375A /* ExamView.swift */,
+				B343C4B42523801500C1375A /* ExamsOrderView.swift */,
 				B311F76025230A0800C19EEC /* AllCertificatesView.swift */,
 				509CEADA252D19D600CA4D6F /* ConferenceView.swift */,
 			);
@@ -323,6 +328,7 @@
 				B393BEC32522EBF5006DB1E5 /* Recipe+BL.swift */,
 				B393BED72522F2FA006DB1E5 /* Medicine+BL.swift */,
 				B311F76825230E2900C19EEC /* Certificate+BL.swift */,
+				509CEAEA252D3D9700CA4D6F /* ExamsOrder+BL.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -545,6 +551,7 @@
 				B311F76E25230F1400C19EEC /* CertificateComponent.swift in Sources */,
 				B393BE7A2522EB43006DB1E5 /* AllRecipesView.swift in Sources */,
 				B393BE392522E8CE006DB1E5 /* Medisoft.xcdatamodeld in Sources */,
+				509CEAEB252D3D9700CA4D6F /* ExamsOrder+BL.swift in Sources */,
 				B393BE6F2522EB34006DB1E5 /* Appointment.swift in Sources */,
 				B343C4BE2523802800C1375A /* AllExamsView.swift in Sources */,
 				B393BE7B2522EB43006DB1E5 /* Utils.swift in Sources */,
@@ -554,7 +561,7 @@
 				B311F76925230E2900C19EEC /* Certificate+BL.swift in Sources */,
 				B393BE7C2522EB43006DB1E5 /* LoginView.swift in Sources */,
 				B393BEC92522EE27006DB1E5 /* PastRecipe.swift in Sources */,
-				B343C4D125238B6800C1375A /* PendingExam.swift in Sources */,
+				B343C4D125238B6800C1375A /* PendingExamsOrder.swift in Sources */,
 				509CEADB252D19D600CA4D6F /* ConferenceView.swift in Sources */,
 				B311F76125230A0800C19EEC /* AllCertificatesView.swift in Sources */,
 				B393BE362522E8CE006DB1E5 /* Persistence.swift in Sources */,
@@ -564,8 +571,8 @@
 				B393BEA32522EB9D006DB1E5 /* TextStyles.swift in Sources */,
 				509CEAD3252CFA3F00CA4D6F /* JitsiMeetComponent.swift in Sources */,
 				B393BE2D2522E8CD006DB1E5 /* MedisoftApp.swift in Sources */,
-				B343C4C92523881000C1375A /* PastExam.swift in Sources */,
-				B343C4B52523801500C1375A /* ExamView.swift in Sources */,
+				B343C4C92523881000C1375A /* PastExamsOrder.swift in Sources */,
+				B343C4B52523801500C1375A /* ExamsOrderView.swift in Sources */,
 				B393BE682522EB14006DB1E5 /* ProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -575,6 +582,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B393BE442522E8CE006DB1E5 /* MedisoftTests.swift in Sources */,
+				509ED741253D40DA00CD1C35 /* MedicineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
