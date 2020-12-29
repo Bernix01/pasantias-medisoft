@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50683F68252BE26A00721421 /* JitsiMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507D09E1252BC03B00DF36E6 /* JitsiMeet.framework */; };
-		50683F69252BE26A00721421 /* JitsiMeet.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 507D09E1252BC03B00DF36E6 /* JitsiMeet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		50683F6B252BE26C00721421 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507D09E2252BC03C00DF36E6 /* WebRTC.framework */; };
-		50683F6C252BE26C00721421 /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 507D09E2252BC03C00DF36E6 /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		509CEAD3252CFA3F00CA4D6F /* JitsiMeetComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509CEAD2252CFA3F00CA4D6F /* JitsiMeetComponent.swift */; };
 		509CEADB252D19D600CA4D6F /* ConferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509CEADA252D19D600CA4D6F /* ConferenceView.swift */; };
 		509CEAEB252D3D9700CA4D6F /* ExamsOrder+BL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509CEAEA252D3D9700CA4D6F /* ExamsOrder+BL.swift */; };
 		509ED741253D40DA00CD1C35 /* MedicineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509ED740253D40DA00CD1C35 /* MedicineTests.swift */; };
+		50F49E9E25854397005574AF /* JitsiMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F49E9625854314005574AF /* JitsiMeet.framework */; };
+		50F49E9F25854397005574AF /* JitsiMeet.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50F49E9625854314005574AF /* JitsiMeet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		50F49EA025854397005574AF /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F49E9525854312005574AF /* WebRTC.framework */; };
+		50F49EA125854397005574AF /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50F49E9525854312005574AF /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B302CDA625265681000947F9 /* DrInfoComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B302CDA525265681000947F9 /* DrInfoComponent.swift */; };
 		B311F76125230A0800C19EEC /* AllCertificatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311F76025230A0800C19EEC /* AllCertificatesView.swift */; };
 		B311F76925230E2900C19EEC /* Certificate+BL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311F76825230E2900C19EEC /* Certificate+BL.swift */; };
@@ -101,8 +101,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				50683F69252BE26A00721421 /* JitsiMeet.framework in Embed Frameworks */,
-				50683F6C252BE26C00721421 /* WebRTC.framework in Embed Frameworks */,
+				50F49E9F25854397005574AF /* JitsiMeet.framework in Embed Frameworks */,
+				50F49EA125854397005574AF /* WebRTC.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,12 +110,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		507D09E1252BC03B00DF36E6 /* JitsiMeet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JitsiMeet.framework; sourceTree = "<group>"; };
-		507D09E2252BC03C00DF36E6 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
 		509CEAD2252CFA3F00CA4D6F /* JitsiMeetComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JitsiMeetComponent.swift; sourceTree = "<group>"; };
 		509CEADA252D19D600CA4D6F /* ConferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceView.swift; sourceTree = "<group>"; };
 		509CEAEA252D3D9700CA4D6F /* ExamsOrder+BL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExamsOrder+BL.swift"; sourceTree = "<group>"; };
 		509ED740253D40DA00CD1C35 /* MedicineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineTests.swift; sourceTree = "<group>"; };
+		50F49E9525854312005574AF /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+		50F49E9625854314005574AF /* JitsiMeet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JitsiMeet.framework; sourceTree = "<group>"; };
 		B302CDA525265681000947F9 /* DrInfoComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrInfoComponent.swift; sourceTree = "<group>"; };
 		B311F76025230A0800C19EEC /* AllCertificatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCertificatesView.swift; sourceTree = "<group>"; };
 		B311F76825230E2900C19EEC /* Certificate+BL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Certificate+BL.swift"; sourceTree = "<group>"; };
@@ -189,8 +189,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50683F68252BE26A00721421 /* JitsiMeet.framework in Frameworks */,
-				50683F6B252BE26C00721421 /* WebRTC.framework in Frameworks */,
+				50F49E9E25854397005574AF /* JitsiMeet.framework in Frameworks */,
+				50F49EA025854397005574AF /* WebRTC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,10 +214,17 @@
 		507D09E0252BC02400DF36E6 /* Jitsi */ = {
 			isa = PBXGroup;
 			children = (
-				507D09E1252BC03B00DF36E6 /* JitsiMeet.framework */,
-				507D09E2252BC03C00DF36E6 /* WebRTC.framework */,
+				50F49E9625854314005574AF /* JitsiMeet.framework */,
+				50F49E9525854312005574AF /* WebRTC.framework */,
 			);
 			path = Jitsi;
+			sourceTree = "<group>";
+		};
+		50F49E9D25854397005574AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B393BE202522E8CD006DB1E5 = {
@@ -227,6 +234,7 @@
 				B393BE422522E8CE006DB1E5 /* MedisoftTests */,
 				B393BE4D2522E8CE006DB1E5 /* MedisoftUITests */,
 				B393BE2A2522E8CD006DB1E5 /* Products */,
+				50F49E9D25854397005574AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

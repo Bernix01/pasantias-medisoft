@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LoginView.swift
 //  Shared
 //
 //  Created by Guillermo Bernal on 7/10/20.
@@ -38,17 +38,9 @@ struct LoginView: View {
                 }
 
                 NavigationLink(destination: HomeView()
-                               //                       , tag: 1
-                               //                       , selection: $selection
                 ) {
-                    //            Button {
-                    //                self.selection = 1
-                    //            } label: {
                     Text(NSLocalizedString("Ingresar", comment: "Login button"))
                         .frame(maxWidth: .infinity)
-                    //            }
-                    //            .padding(.top, 16.0)
-                    //            .padding(.horizontal)
                 }
                 .buttonStyle(WideButtonStyle(bgColor: Color("PrimaryColor")))
                 HStack {

@@ -12,7 +12,7 @@ struct AllExams: View {
     
     @Environment(\.managedObjectContext) private var viewContext
 
-    @FetchRequest(entity: Recipe.entity(), sortDescriptors: [])
+    @FetchRequest(entity: ExamsOrder.entity(), sortDescriptors: [])
     var orders: FetchedResults<ExamsOrder>
 
     var body: some View {

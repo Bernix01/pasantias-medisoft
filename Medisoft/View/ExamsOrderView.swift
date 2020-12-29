@@ -28,7 +28,7 @@ struct ExamsOrderView: View {
                                 .frame(width: 30, height: 30)
                         }
                 }
-//                AppointmentPreview(appointment: recipe.appointment!)
+//                AppointmentPreview(appointment: order.appointment!)
 
                 HStack {
                     Text("Examenes")
@@ -58,7 +58,21 @@ struct ExamsOrderView_Previews: PreviewProvider {
 
     static var previews: some View {
 
-        let order = ExamsOrder(context: PersistenceController.preview.container.viewContext)
+        let order: ExamsOrder = ExamsOrder(context: PersistenceController.preview.container.viewContext)
+        
+        order.drName = "Dr. Guillermo Bernal"
+        order.id = "1233"
+        order.pdfURL = "https://google.com"
+        order.preExamIndications = "Test"
+        order.specialty = "Rayos Gamma"
+        
+        
+        let exam = Exam(context: PersistenceController.preview.container.viewContext)
+        exam.family = "Cardiología"
+        exam.id = "4566"
+        exam.name = "Rayos Gamma de tórax"
+        
+        order.exams = [exam]
 
         return
             NavigationView{

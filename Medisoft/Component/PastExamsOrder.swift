@@ -17,7 +17,7 @@ struct PastExamsOrderComponent: View {
                     .font(FontNameManager.menu)
                     .padding(.bottom, 5.0)
                 Spacer()
-                Text("LABORATORIO")
+                Text("\(order.type ?? "")")
             }
             DrInfoComponent(drName: order.drName!,
                             specialty: order.specialty!)
@@ -26,7 +26,7 @@ struct PastExamsOrderComponent: View {
                     .font(FontNameManager.body2Bold)
                     .foregroundColor(Color("GreyColor"))
                     .padding(.top, 4.0)
-                Text("4 exámenes")
+                Text("\(order.exams?.count ?? 0) exámen(es)")
                 Spacer()
             }
         }
@@ -39,9 +39,22 @@ struct PastExamsOrderComponent: View {
 struct PastExam_Previews: PreviewProvider {
     
     static var previews: some View {
-        let order = ExamsOrder(context: PersistenceController.preview.container.viewContext)
+        let examsOrder = ExamsOrder(context: PersistenceController.preview.container.viewContext)
+        examsOrder.drName = "Guillermo Bernal"
+        examsOrder.id = "123"
+        examsOrder.pdfURL = "https://www.google.com"
+        examsOrder.preExamIndications = "Ir en ayunas."
+        examsOrder.specialty = "Cardiología"
+        examsOrder.type = "Imagen"
         
-        return PastExamsOrderComponent(order: order)
+        let exam = Exam(context: PersistenceController.preview.container.viewContext)
+        exam.family = "Cardiología"
+        exam.id = "456"
+        exam.name = "Rayos Gamma de tórax"
+        
+        examsOrder.exams = [exam]
+        
+        return PastExamsOrderComponent(order: examsOrder)
             .previewLayout(.fixed(width: 300.0, height: 100.0))
             .environment(\.managedObjectContext,
                          PersistenceController

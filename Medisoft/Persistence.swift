@@ -19,11 +19,15 @@ struct PersistenceController {
 
 
         let fetchRequest2: NSFetchRequest<NSFetchRequestResult> = Certificate.fetchRequest()
-        let deleteRequest2 = NSBatchDeleteRequest(fetchRequest: fetchRequest)
+        let deleteRequest2 = NSBatchDeleteRequest(fetchRequest: fetchRequest2)
+        
+        let fetchRequest3: NSFetchRequest<NSFetchRequestResult> = ExamsOrder.fetchRequest()
+        let deleteRequest3 = NSBatchDeleteRequest(fetchRequest: fetchRequest3)
 
         do {
             try result.container.persistentStoreCoordinator.execute(deleteRequest, with: viewContext)
             try result.container.persistentStoreCoordinator.execute(deleteRequest2, with: viewContext)
+            try result.container.persistentStoreCoordinator.execute(deleteRequest3, with: viewContext)
         } catch let error as NSError {
             // Replace this implementation with code to handle the error appropriately.
             // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
@@ -120,7 +124,23 @@ struct PersistenceController {
 
             recipe.medicines = [med, med2, med3, med4]
             recipe.pdfURL = "https://www.google.com"
+            
+            let examsOrder = ExamsOrder(context: viewContext)
+            examsOrder.drName = "Guillermo Bernal"
+            examsOrder.id = "\(id)123"
+            examsOrder.pdfURL = "https://www.google.com"
+            examsOrder.preExamIndications = "Ir en ayunas."
+            examsOrder.specialty = "Cardiología"
+            examsOrder.type = "Imagen"
+            
+            let exam = Exam(context: viewContext)
+            exam.family = "Cardiología"
+            exam.id = "\(id)456"
+            exam.name = "Rayos Gamma de tórax"
+            
+            examsOrder.exams = [exam]
         }
+        
         do {
             try viewContext.save()
         } catch {

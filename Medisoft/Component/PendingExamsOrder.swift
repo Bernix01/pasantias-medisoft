@@ -36,18 +36,18 @@ struct PendingExamsOrderComponent: View {
                     .font(FontNameManager.menuBold)
                     .foregroundColor(Color("GreyColor"))
                     .padding(.top, 4.0)
-//                LazyVGrid(columns: columns, alignment: .leading) {
-//                    ForEach(recipe.medicineArray, id: \.id) { medicine in
-//                        HStack {
-//                            Circle()
-//                                .frame(width: 8, height: 8, alignment: .center)
-//                                .foregroundColor(Color("BlackColor"))
-//                            Text(medicine.wrappedPrincipioActivo)
-//                                .font(FontNameManager.body)
-//                                .foregroundColor(Color("BlackColor"))
-//                        }
-//                    }
-//                }
+                LazyVGrid(columns: columns, alignment: .leading) {
+                    ForEach(order.examsArray, id: \.id) { exam in
+                        HStack {
+                            Circle()
+                                .frame(width: 8, height: 8, alignment: .center)
+                                .foregroundColor(Color("BlackColor"))
+                            Text(exam.name!)
+                                .font(FontNameManager.body)
+                                .foregroundColor(Color("BlackColor"))
+                        }
+                    }
+                }
             }
             .padding(.all)
             .background(RoundedRectangle(cornerRadius: 10)
@@ -74,13 +74,18 @@ struct PendingExamsOrderComponent_Previews: PreviewProvider {
         let order: ExamsOrder = ExamsOrder(context: PersistenceController.preview.container.viewContext)
         
         order.drName = "Dr. Guillermo Bernal"
-        order.id = "123"
+        order.id = "1233"
         order.pdfURL = "https://google.com"
-        order.exams = []
         order.preExamIndications = "Test"
         order.specialty = "Rayos Gamma"
         
-
+        
+        let exam = Exam(context: PersistenceController.preview.container.viewContext)
+        exam.family = "Cardiología"
+        exam.id = "4566"
+        exam.name = "Rayos Gamma de tórax"
+        
+        order.exams = [exam]
         return PendingExamsOrderComponent(order: order).previewLayout(.fixed(width: 400.0, height: 300.0)).environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
